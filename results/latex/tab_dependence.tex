@@ -1,0 +1,29 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Shared-origin detection on the document pools of 456 EchoBench test questions (pairwise AUC/AP/F1 in \%, CI from a question-level bootstrap; ARI of the clustering at the default threshold). The LLM judge is evaluated on the first 100 pools only; all estimators are also reported on that subset. Lower block: learning curve (number of training questions).}
+\label{tab:dep}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & AUC & 95\% CI & AP & F1@0.5 & ARI & AUC (LLM subset) & ms/pool \\
+\midrule
+H & 99.2 & [99.0, 99.4] & 99.4 & 96.9 & 0.904 & 99.0 & 26 \\
+L[full] & 99.6 & [99.5, 99.7] & 99.7 & 97.7 & 0.882 & 99.6 & 24 \\
+L[full+meta] & \textbf{99.9} & [99.9, 99.9] & \textbf{99.9} & \textbf{99.0} & \textbf{0.949} & \textbf{99.9} & 24 \\
+LLM & 95.0 & [93.6, 96.0] & 94.5 & 76.2 & 0.923 & 95.0 & 5388 \\
+near-dup (5-gram $\geq$0.5) & 53.8 & [53.6, 53.9] & 62.5 & 14.2 & 0.096 & 54.1 & 1 \\
+SemDedup (cos $\geq$0.95) & 60.0 & [59.6, 60.5] & 67.6 & 33.4 & 0.320 & 59.9 & 0 \\
+L[-lexical] & 99.6 & [99.5, 99.7] & 99.7 & 97.7 & 0.880 & 99.6 & 24 \\
+L[-semantic] & 99.6 & [99.4, 99.7] & 99.7 & 97.6 & 0.872 & 99.5 & 24 \\
+L[-rare] & 99.1 & [98.9, 99.2] & 99.3 & 96.4 & 0.799 & 99.2 & 24 \\
+L[-aigc] & 99.6 & [99.5, 99.7] & 99.7 & 97.8 & 0.881 & 99.6 & 24 \\
+L[lexical\_only] & 97.9 & [97.5, 98.2] & 98.5 & 94.4 & 0.763 & 98.0 & 24 \\
+\midrule
+L[n\_train=100] & 99.5 & [99.4, 99.6] & 99.6 & 97.4 & 0.882 & 99.4 & 24 \\
+L[n\_train=200] & 99.6 & [99.5, 99.7] & 99.7 & 97.7 & 0.884 & 99.6 & 24 \\
+L[n\_train=25] & 99.5 & [99.3, 99.6] & 99.6 & 96.9 & 0.907 & 99.5 & 24 \\
+L[n\_train=50] & 99.5 & [99.4, 99.6] & 99.6 & 97.4 & 0.884 & 99.4 & 26 \\
+\bottomrule
+\end{tabular}
+\end{table}

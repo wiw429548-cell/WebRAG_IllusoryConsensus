@@ -1,0 +1,34 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Ablations (reader Qwen\_Qwen3\_8B): IndieRAG components (evidence table / origin-grouped documents), dependence estimators (H heuristic, L learned, LLM judge, oracle), and IndieVote with the learned estimator trained without one feature group. dep.\ ms/inst: dependence-estimation time per instance.}
+\label{tab:ablation:Qwen_Qwen3_8B}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Clean & Echo avg & B-agree & dep.\ ms/inst & Tok/inst \\
+\midrule
+IndieRAG-L & \textbf{84.7} & 79.5 & 62.1 & 6 & 4.8k \\
+IndieRAG-L: table + all docs & \textbf{84.7} & 67.3 & 57.7 & 6 & 5.2k \\
+IndieRAG-L: grouped docs, no table & 82.8 & 80.4 & 59.0 & 6 & 4.5k \\
+IndieRAG-H & 83.7 & 78.8 & 59.8 & 3 & 4.5k \\
+IndieRAG-LLM & 83.8 & 78.5 & 58.1 & 228 & 11.6k \\
+IndieRAG-L+meta & 84.5 & \textbf{81.4} & 61.4 & 5 & 4.6k \\
+IndieRAG-oracle & 84.7 & 83.8 & 63.3 & 0 & 4.6k \\
+\midrule
+Majority vote & 78.2 & 40.6 & \textbf{68.4} & -- & 2.8k \\
+IndieVote-H & 78.2 & 67.1 & \textbf{68.4} & 3 & 2.8k \\
+IndieVote-L & 78.0 & 67.1 & 67.5 & 6 & 2.8k \\
+IndieVote-LLM & 78.0 & 63.2 & 65.8 & 228 & 9.7k \\
+IndieVote-oracle & 78.2 & 67.5 & 68.4 & 0 & 2.8k \\
+IndieVote-L [-aigc] & 78.0 & 67.2 & 67.5 & 5 & 2.8k \\
+IndieVote-L [-lexical] & 78.0 & 67.2 & 67.5 & 6 & 2.8k \\
+IndieVote-L [-rare] & 78.0 & 66.3 & 66.7 & 5 & 2.8k \\
+IndieVote-L [-semantic] & 78.0 & 67.2 & \textbf{68.4} & 6 & 2.8k \\
+IndieVote-L [lexical\_only] & 78.0 & 65.8 & 65.8 & 5 & 2.8k \\
+\midrule
+ACCU (no copy det.) & 78.2 & 40.6 & \textbf{68.4} & -- & 2.8k \\
+IndieBayes-L & 78.0 & 66.9 & 67.5 & 6 & 2.8k \\
+\bottomrule
+\end{tabular}
+\end{table}

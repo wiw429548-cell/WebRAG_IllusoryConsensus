@@ -1,0 +1,32 @@
+\begin{table}[!t]
+\centering
+\caption{\textbf{RAMDocs} (500 questions with ambiguity, misinformation and noise; no synthetic copies). Acc: all
+valid answers and no misinformation answer; Wrong$\downarrow$: a misinformation answer is output.}
+\label{tab:ramdocs}
+\setlength{\tabcolsep}{4.5pt}
+\small
+\rowcolors{3}{white}{rowc}
+\begin{tabular}{l rr rr}
+\toprule
+\hdr & \multicolumn{2}{c}{\textbf{Qwen2.5-7B}} & \multicolumn{2}{c}{\textbf{Qwen3-8B}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\hdr \textbf{Method} & Acc & Wrong$\downarrow$ & Acc & Wrong$\downarrow$ \\
+\midrule
+Vanilla RAG & 26.0 & 42.4 & 30.6 & 42.4 \\
+Near-dup removal & \best{35.6} & 22.2 & \best{42.4} & 23.2 \\
+SemDeDup & 29.4 & 33.6 & 34.4 & 34.8 \\
+Majority vote & 31.6 & 45.4 & 31.0 & 45.0 \\
+Astute RAG & 27.6 & 26.6 & 12.4 & \best{7.0} \\
+InstructRAG-ICL & 27.0 & 23.4 & 37.0 & 30.8 \\
+TrustRAG (filter) & 26.4 & 39.8 & 30.2 & 40.2 \\
+MADAM-RAG & 25.4 & 28.0 & 20.8 & \scnd{19.6} \\
+CAG (prompted) & 24.4 & 29.6 & 34.0 & 35.4 \\
+ACCU (no copy det.) & 25.4 & \scnd{22.0} & 24.8 & 21.8 \\
+\ours IndieVote-L & \scnd{33.0} & 46.4 & 32.4 & 46.0 \\
+\ours IndieBayes-L & 22.6 & \best{20.8} & 22.2 & 20.4 \\
+\ours \sys-H & 32.4 & 27.8 & 40.4 & 32.4 \\
+\ours \sys-L & 32.2 & 27.2 & \scnd{41.0} & 32.4 \\
+\ours \sys-LLM & 28.2 & 32.8 & 37.8 & 37.8 \\
+\bottomrule
+\end{tabular}
+\end{table}

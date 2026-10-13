@@ -1,0 +1,1 @@
+10-10 23:26:38 [echobench] assembled 760 questions, 42902 docs; copy validity {'valid_backtrans': 5061, 'invalid_backtrans': 1019, 'valid_paraphrase': 5181, 'valid_ai_farm': 4419, 'invalid_ai_farm': 1661, 'valid_summary': 4447, 'invalid_summary': 1633, 'valid_verbatim': 6034, 'invalid_paraphrase': 899, 'invalid_verbatim': 46}

@@ -1,0 +1,31 @@
+\begin{table}[!t]
+\centering
+\caption{\textbf{Natural data: unmodified web search results} (TriviaQA, cached Bing pages; 1{,}000 questions, 297 of
+them with pages supporting $\geq$2 answers = ``conf.''). Accuracy (\%) on all questions and paired difference to
+vanilla RAG ($\Delta$, points) on all and on conflict questions (vanilla: 84.2/84.3\%).
+\sigp{Green}/\sign{red}: 95\% CI above/below 0; \nsig{gray}: CI contains 0.}
+\label{tab:web}
+\setlength{\tabcolsep}{3pt}
+\small
+\rowcolors{4}{white}{rowc}
+\begin{tabular}{l rrr rrr}
+\toprule
+\hdr & \multicolumn{3}{c}{\textbf{Qwen2.5-7B}} & \multicolumn{3}{c}{\textbf{Qwen3-8B}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+\hdr \textbf{Method} & Acc & $\Delta$ & $\Delta$conf. & Acc & $\Delta$ & $\Delta$conf. \\
+\midrule
+Vanilla RAG & 91.3 & -- & -- & 92.1 & -- & -- \\
+Near-dup removal & 90.8 & \sign{$-$0.5} & \sign{$-$1.3} & 91.8 & \nsig{$-$0.3} & \nsig{$-$0.4} \\
+SemDeDup & 91.1 & \nsig{$-$0.2} & \nsig{$-$0.7} & 91.9 & \nsig{$-$0.2} & \nsig{+0.0} \\
+Majority vote & 91.0 & \nsig{$-$0.3} & \nsig{$-$2.7} & 91.4 & \nsig{$-$0.7} & \nsig{$-$0.4} \\
+SemDeDup + vote & 90.9 & \nsig{$-$0.4} & \nsig{$-$3.0} & 91.5 & \nsig{$-$0.6} & \nsig{+0.0} \\
+Astute RAG & 80.0 & \sign{$-$11.3} & \sign{$-$11.4} & 68.9 & \sign{$-$23.2} & \sign{$-$22.8} \\
+InstructRAG-ICL & 89.9 & \nsig{$-$1.4} & \nsig{+0.3} & 92.8 & \nsig{+0.7} & \sigp{+5.0} \\
+TrustRAG (filter) & 90.9 & \sign{$-$0.4} & \nsig{$-$0.7} & 91.9 & \nsig{$-$0.2} & \nsig{+0.0} \\
+CAG (prompted) & 91.9 & \nsig{+0.6} & \nsig{+2.0} & 91.4 & \nsig{$-$0.7} & \nsig{+1.4} \\
+\ours IndieVote-L & 91.1 & \nsig{$-$0.2} & \nsig{$-$2.4} & 91.3 & \nsig{$-$0.8} & \nsig{$-$0.7} \\
+\ours IndieBayes-L & 91.1 & \nsig{$-$0.2} & \nsig{$-$2.4} & 91.4 & \nsig{$-$0.7} & \nsig{$-$0.4} \\
+\ours \sys-L & 89.2 & \sign{$-$2.1} & \nsig{$-$1.3} & 89.7 & \sign{$-$2.4} & \nsig{+1.4} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,22 @@
+\begin{table}[h]
+\centering
+\caption{Reader family and scale (key methods; Granite and 32B were run on setting A and B only). Clean and echo-avg
+accuracy (\%).}
+\label{tab:readers}
+\setlength{\tabcolsep}{2.6pt}
+\scriptsize
+\rowcolors{3}{white}{rowc}
+\begin{tabular}{l rr rr rr rr}
+\toprule
+\hdr & \multicolumn{2}{c}{Qwen2.5-7B} & \multicolumn{2}{c}{Qwen3-8B} & \multicolumn{2}{c}{Granite-3.3-8B} & \multicolumn{2}{c}{Qwen2.5-32B} \\
+\hdr \textbf{Method} & clean & echo & clean & echo & clean & echo & clean & echo \\
+\midrule
+Vanilla RAG & \best{80.7} & 61.0 & \best{85.2} & \scnd{68.5} & \best{85.8} & 67.0 & 88.0 & 72.1 \\
+Majority vote & 75.7 & 35.0 & 78.2 & 40.6 & \scnd{77.2} & 43.1 & 80.5 & 51.7 \\
+Astute RAG & 76.5 & \scnd{67.4} & 70.2 & 46.3 & 35.5 & 27.1 & \best{94.0} & \scnd{84.4} \\
+\ours IndieVote-L & 75.8 & 63.6 & 78.0 & 67.1 & \scnd{77.2} & \best{68.6} & 80.5 & 69.6 \\
+\ours IndieBayes-L & 75.8 & 63.1 & 78.0 & 66.9 & \scnd{77.2} & \scnd{68.4} & 80.5 & 69.6 \\
+\ours \sys-L & \scnd{80.3} & \best{78.3} & \scnd{84.7} & \best{79.5} & 63.2 & 63.0 & \scnd{90.7} & \best{87.3} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,25 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{IndieRAG-L vs.\ baselines on all setting-A instances with $m\geq1$ shared by both methods (reader Qwen\_Qwen2\_5\_7B\_Instruct). $\Delta$ in accuracy points; CI and $p$ from a question-level cluster bootstrap (5000 resamples), Holm-corrected over baselines; McNemar on instances for reference.}
+\label{tab:sig}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & \#inst & $\Delta$acc & 95\% CI & $p$ & $p_{\text{Holm}}$ & $p_{\text{McNemar}}$ \\
+\midrule
+Vanilla RAG & 2400 & +17.3 & [+13.4, +21.0] & <0.001 & 0.002 & <0.001 \\
+Dedup (5-gram) & 2400 & +14.3 & [+10.6, +18.0] & <0.001 & 0.002 & <0.001 \\
+SemDedup (emb.) & 2400 & +12.0 & [+8.5, +15.7] & <0.001 & 0.002 & <0.001 \\
+Majority vote & 2400 & +43.3 & [+37.8, +48.6] & <0.001 & 0.002 & <0.001 \\
+Near-dup + vote & 2400 & +35.6 & [+30.5, +40.7] & <0.001 & 0.002 & <0.001 \\
+SemDedup + vote & 2400 & +31.5 & [+26.6, +36.3] & <0.001 & 0.002 & <0.001 \\
+Astute RAG & 2400 & +10.8 & [+6.0, +15.4] & <0.001 & 0.002 & <0.001 \\
+InstructRAG-ICL & 2400 & +11.4 & [+8.0, +15.0] & <0.001 & 0.002 & <0.001 \\
+TrustRAG (filter) & 2400 & +16.1 & [+12.3, +19.8] & <0.001 & 0.002 & <0.001 \\
+MADAM-RAG & 400 & +17.8 & [+11.5, +24.0] & <0.001 & 0.002 & <0.001 \\
+CAG (prompted) & 2400 & +10.1 & [+6.5, +13.7] & <0.001 & 0.002 & <0.001 \\
+ACCU (no copy det.) & 2400 & +43.3 & [+37.8, +48.6] & <0.001 & 0.002 & <0.001 \\
+\bottomrule
+\end{tabular}
+\end{table}

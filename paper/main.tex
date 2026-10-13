@@ -1,0 +1,542 @@
+\PassOptionsToPackage{table}{xcolor}
+\documentclass[sigconf,review,anonymous]{acmart}
+% ---------------------------------------------------------------------------------------------------------------
+% Counting Sources, Not Pages -- WWW full paper.
+% Every number in the text comes from ../results/ (summary.md, metrics.json); see paper/scripts/check_numbers.py.
+% figures:  python paper/scripts/make_figures.py   (reads ../results/**.json and per-instance predictions)
+% tables:   python paper/scripts/make_tables.py    (re-styles ../results/latex/*.tex, numbers copied verbatim)
+% ---------------------------------------------------------------------------------------------------------------
+\usepackage{booktabs}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,fit,backgrounds,calc,shapes.misc}
+\usepackage{enumitem}
+\usepackage{pifont}
+
+% ---- colours (shared with the figures) ----
+\definecolor{oursred}{HTML}{C8102E}
+\definecolor{voteblue}{HTML}{4A90C8}
+\definecolor{hdrc}{gray}{0.86}
+\definecolor{rowc}{gray}{0.955}
+\definecolor{grpc}{HTML}{E4ECF5}
+\definecolor{oursc}{HTML}{FCEBEE}
+\definecolor{bestc}{HTML}{1F4E9A}
+\definecolor{posc}{HTML}{1E7B34}
+\definecolor{negc}{HTML}{C0392B}
+\definecolor{nsigc}{gray}{0.55}
+\definecolor{wrongc}{HTML}{F6D5D9}
+\definecolor{rightc}{HTML}{D6E6F4}
+
+% ---- table styling: gray/white banding, coloured header / group / our rows ----
+\setlength{\aboverulesep}{0pt}
+\setlength{\belowrulesep}{0pt}
+\renewcommand{\arraystretch}{1.13}
+\newcommand{\hdr}{\rowcolor{hdrc}}
+\newcommand{\ours}{\rowcolor{oursc}}
+\newcommand{\grp}[2]{\rowcolor{grpc}\multicolumn{#1}{l}{\footnotesize\bfseries\itshape #2}\\}
+\newcommand{\best}[1]{\textbf{\textcolor{bestc}{#1}}}
+\newcommand{\scnd}[1]{\underline{#1}}
+\newcommand{\sigp}[1]{\textbf{\textcolor{posc}{#1}}}
+\newcommand{\sign}[1]{\textbf{\textcolor{negc}{#1}}}
+\newcommand{\nsig}[1]{\textcolor{nsigc}{#1}}
+
+\newcommand{\sys}{\textsc{IndieRAG}}
+\newcommand{\ess}{\mathrm{ESS}}
+\newcommand{\pp}{\,pp}
+\newcommand{\para}[1]{\smallskip\noindent\textbf{#1}\enspace}
+
+\setlength{\emergencystretch}{1.5em}
+\raggedbottom
+\setcopyright{none}
+\acmConference[WWW '27]{The ACM Web Conference 2027}{2027}{}
+\acmYear{2027}
+\settopmatter{printacmref=false}
+
+\begin{document}
+\title{Counting Sources, Not Pages: Dependence-Aware Evidence Aggregation against Illusory Consensus in Web RAG}
+
+\author{Anonymous Author(s)}
+\affiliation{\institution{Anonymous Institution}\country{}}
+
+\begin{abstract}
+Retrieval-augmented generation (RAG) over the Web treats every retrieved page as an independent witness, so a claim
+repeated on many pages wins. Many of those pages share one origin: syndicated articles, scraped mirrors and
+LLM-written content farms restate a single source in many surface forms. We call the result \emph{illusory consensus}
+and show that it misleads current RAG systems. On EchoBench, a benchmark built from real web search results in which
+one wrong origin and its copies compete with independent correct pages, eight copies drop the accuracy of a
+Qwen2.5-7B reader from 86.5\% to 49.5\% and that of per-document majority voting to 24.5\%. Near-duplicate removal
+and semantic deduplication recover little, because paraphrased, translated and summarised copies are not near
+duplicates. We propose \sys{}, which brings copy detection from truth discovery to RAG. It estimates whether two
+pages share an origin from lexical, semantic, rare-fact and machine-text signals, groups pages into origin clusters,
+and weighs each claim by its effective number of independent sources. \sys{} raises echo accuracy by 17.3 and 11.0
+points over vanilla RAG for two 8B-class readers (10.1 and 5.8 points over the strongest of 12 baselines), keeps
+clean accuracy, and stays nearly flat as copies accumulate. Its shared-origin detector reaches 99.6 AUC, where
+deduplication reaches 54 to 60, and costs 6\,ms per query on a CPU. On RAMDocs, \sys{} improves over vanilla RAG
+by 6.2 and 10.4 points. On 6{,}397 real Bing result pages, 27.4\% of the pages share an origin with another page of
+the same result list, 2.5 times the rate visible to near-duplicate detection.
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+<concept><concept_id>10002951.10003317.10003347.10003348</concept_id>
+<concept_desc>Information systems~Question answering</concept_desc><concept_significance>500</concept_significance></concept>
+<concept><concept_id>10002951.10003260.10003277</concept_id>
+<concept_desc>Information systems~Web mining</concept_desc><concept_significance>300</concept_significance></concept>
+</ccs2012>
+\end{CCSXML}
+\ccsdesc[500]{Information systems~Question answering}
+\ccsdesc[300]{Information systems~Web mining}
+\keywords{retrieval-augmented generation, misinformation, copy detection, truth discovery, AI-generated content}
+
+\maketitle
+
+% =====================================================================================================================
+\section{Introduction}
+% =====================================================================================================================
+Truth-discovery research showed for structured data that copying between sources breaks majority voting, and that
+modelling the copying recovers the truth~\cite{dong2009integrating,li2015truthsurvey}. RAG systems built on Web search still count pages. A reader that
+sees ten pages, seven of which give the same answer, takes the seven as corroboration, even when they are one article
+syndicated seven times. Such duplication is now cheap. News is syndicated, Q\&A and trivia sites are scraped and
+mirrored, LLMs rewrite one page into many fluent variants at almost no cost, and neural retrievers rank LLM-written
+text above human-written text~\cite{dai2024neural}. Corpus-poisoning attacks exploit the same weakness by injecting
+a handful of agreeing passages~\cite{zou2024poisonedrag}. A claim that appears on many pages but comes from one
+origin produces \emph{illusory consensus} (Figure~\ref{fig:overview}a).
+
+Existing defences judge passages one at a time or reward agreement between them. Work on knowledge conflicts studies
+how readers weigh retrieved context against parametric
+memory~\cite{xu2024conflicts,wu2024clasheval,ming2025faitheval,su2024conflictbank,chen2026ragknow}, and robust-RAG
+methods filter, isolate or re-weight
+passages~\cite{wang2024astute,wei2025instructrag,zhou2025trustrag,xiang2024robustrag,pan2024cag,deng2024cram,wang2025ramdocs}.
+Reliability estimation by cross-source agreement~\cite{hwang2024rarag} even rewards copying, because copies always
+agree. Near-duplicate removal~\cite{broder1997resemblance} and semantic deduplication~\cite{abbas2023semdedup} catch
+verbatim mirrors, yet the copies that LLM rewriting produces are paraphrases, translations and summaries.
+
+We treat the problem as copy detection over anonymous web text and make four contributions.
+\begin{enumerate}[leftmargin=*,itemsep=1pt,topsep=2pt]
+\item We define illusory consensus and build EchoBench from real TriviaQA search results. One wrong origin and up to
+eight copies of five types, written by two LLMs or by rule, compete with independent correct pages. Control settings
+separate repetition from LLM style and from independent disagreement.
+\item We show that four readers from two model families, up to 32B parameters, lose 16 to 20 points of accuracy on
+average under echoes and up to 37 points with eight copies. Majority voting over pages collapses, and deduplication
+and robust-RAG baselines recover part of the loss.
+\item We propose \sys{} (Figure~\ref{fig:overview}b), which estimates shared origin, clusters pages, and aggregates
+claims by their effective sample size (ESS), either as a vote (IndieVote), as an evidence table for the reader, or as
+a stopping signal for a search agent (IndieSearch). A copy-corrected Condorcet argument explains why page counting
+fails and how detector recall governs the repair.
+\item \sys{} improves echo accuracy by 17.3 and 11.0 points over vanilla RAG, significantly over all 12 baselines, with
+unchanged clean accuracy. It also improves on RAMDocs, which has natural conflicts. On 1{,}000 real Bing result lists,
+27.4\% of the pages share an origin with another retrieved page, against 10.9\% detectable as lexical near-duplicates.
+\end{enumerate}
+
+\begin{figure*}[t]
+\centering
+\makebox[\textwidth][c]{\input{figures/overview.tex}}
+\vspace{-1mm}
+\caption{\textbf{Overview.} (a) Illusory consensus in a schematic example: one wrong origin echoed by four copies
+out-counts two independent correct pages. (b) \sys{} estimates which pages share an origin and aggregates claims by
+their effective number of independent sources (ESS), as a vote, as an evidence table with one page per origin for the
+reader, or as a stopping signal for a search agent.}
+\label{fig:overview}
+\end{figure*}
+
+% =====================================================================================================================
+\section{Related Work}
+% =====================================================================================================================
+\para{Truth discovery and copy detection.} Dong et al.~\cite{dong2009integrating} showed that copying between
+structured sources misleads voting and estimated truth, source accuracy and copying jointly (ACCU and its copy-aware
+extensions); Li et al.~\cite{li2015truthsurvey} survey the area. Sharing \emph{rare or false} values is strong
+evidence of copying, an observation that motivates our rare-fact signal. We move the idea from structured claims of
+named sources to anonymous web pages, where both claims and dependence must be inferred from free text and where LLM
+rewriting hides copying from string matching.
+
+\para{Knowledge conflicts and robust RAG.} Surveys and benchmarks study conflicts between context and
+memory~\cite{xu2024conflicts,wu2024clasheval,ming2025faitheval,su2024conflictbank,chen2026ragknow}. RAMDocs and
+MADAM-RAG~\cite{wang2025ramdocs} combine ambiguity, misinformation and noise and resolve them by multi-agent debate.
+Astute RAG~\cite{wang2024astute} consolidates internal and external knowledge, InstructRAG~\cite{wei2025instructrag}
+generates rationales, TrustRAG~\cite{zhou2025trustrag} filters suspicious clusters, RobustRAG~\cite{xiang2024robustrag}
+isolates passages and aggregates their answers, and CAG and CrAM~\cite{pan2024cag,deng2024cram} condition generation on
+credibility. RA-RAG~\cite{hwang2024rarag} estimates source reliability by cross-checking sources. Self-RAG and
+CRAG~\cite{asai2023selfrag,yan2024crag} decide when to retrieve or correct. PoisonedRAG~\cite{zou2024poisonedrag}
+injects several adversarial passages per target question, which is illusory consensus created on purpose.
+
+\para{Deduplication and machine-text detection.} Shingling with containment and resemblance, approximated at scale by
+MinHash and LSH~\cite{broder1997resemblance}, SimHash fingerprints for web crawling~\cite{manku2007nearduplicates}, and
+embedding-based SemDeDup~\cite{abbas2023semdedup} remove near-identical documents with a binary similarity decision. Paraphrased or summarised copies fall below such
+thresholds, and independent pages about the same fact can exceed them. Zero-shot detectors such as
+Fast-DetectGPT~\cite{bao2024fastdetectgpt} and Binoculars~\cite{hans2024binoculars} flag LLM text; we use such a score
+as one weak feature.
+
+\para{Search agents.} Search-R1~\cite{jin2025searchr1} and R1-Searcher~\cite{song2025r1searcher} train agents with RL to
+interleave search and reasoning~\cite{lin2025agenticsearch}. These agents stop once retrieved evidence agrees, and
+echoes make agreement cheap.
+
+% =====================================================================================================================
+\section{Problem and a Copy-Corrected Condorcet View}\label{sec:theory}
+% =====================================================================================================================
+A question $q$ comes with retrieved pages $D=\{d_1,\dots,d_n\}$. Each page supports at most one candidate answer
+$a(d_i)$ and is generated by an unobserved \emph{origin} $o(d_i)$; pages with the same origin are verbatim, translated,
+paraphrased, summarised or rewritten copies of each other. A group $G_a=\{d: a(d)=a\}$ shows \emph{illusory consensus}
+when $|G_a|$ is large and the number of distinct origins $|\{o(d):d\in G_a\}|$ is small. Page-level aggregation,
+explicit (majority vote) or implicit (a reader swayed by repetition), estimates $|G_a|$. The quantity that carries
+evidence is the number of origins.
+
+\begin{proposition}[Copy-corrected Condorcet]\label{prop}
+Let $n$ origins be independently correct with probability $p>\frac12$ in a binary decision, and let one origin be
+copied $m$ times. Let $A_m$ be the accuracy of majority voting over pages, with ties broken uniformly. Then $A_0$ is
+the Condorcet accuracy $\Pr[\mathrm{Bin}(n,p)>\frac n2]$ plus half the tie mass, and $A_m=p$ for every $m\geq n-1$:
+the copied origin alone decides the vote. If each copy is detected and merged into its origin independently with
+probability $r$, the accuracy is $\mathbb{E}[A_U]$ with $U\sim\mathrm{Bin}(m,1-r)$ undetected copies. It equals $A_0$
+for $r=1$ and decays to $p$ as $m(1-r)$ grows.
+\end{proposition}
+\begin{proof}[Proof sketch]
+The copied origin contributes $m{+}1$ identical votes and the other $n{-}1$ origins at most $n{-}1$ votes. For $m+1>n-1$
+the copied origin is always in the majority, so the vote is correct exactly when that origin is, with probability $p$.
+Merging detected copies leaves $U$ extra votes, and conditioning on $U$ gives the mixture.
+\end{proof}
+A simulation with $n{=}5$, $p{=}0.65$ and $2\cdot10^5$ trials confirms this (Figure~\ref{fig:theory}a). Page voting
+falls from 76.3\% to 64.9 to 65.1\% once $m\geq4$, while a perfect detector stays at 76.3 to 76.6\% for all $m\leq32$.
+With recall $0.8$ the accuracy at $m{=}32$ is 65.4\%, so a detector has to catch nearly every copy, paraphrases
+included, to help against heavy echoing.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\linewidth]{figures/theory_web.pdf}
+\vspace{-5mm}
+\caption{(a) Simulation of Proposition~\ref{prop}: majority accuracy over pages vs.\ copies of one origin, for
+detectors of increasing recall. (b) Real web pages (TriviaQA Bing results, 6{,}397 pages) that have a lexical
+near-duplicate vs.\ that share an origin with another page of the same result list according to \sys{}-L
+(95\% bootstrap CIs).}
+\label{fig:theory}
+\vspace{-2mm}
+\end{figure}
+
+% =====================================================================================================================
+\section{EchoBench}\label{sec:bench}
+% =====================================================================================================================
+\para{Source data.} We sample 1{,}000 of the 6{,}376 TriviaQA rc.web~\cite{joshi2017triviaqa} validation questions whose
+cached Bing results contain at least four pages from distinct domains that mention the gold answer. Up to three of
+these real pages, truncated to 220 words, serve as \emph{independent correct} evidence.
+
+\para{Wrong origin and copies.} A builder LLM (Qwen2.5-7B-Instruct) proposes a plausible wrong answer (valid for 984
+questions) and rewrites another real page of the question so that it states this answer (a valid \emph{origin} for
+760 questions). From the origin we produce eight copies of each of five types: \emph{verbatim} syndication (rule-based,
+with random site boilerplate and optional truncation), \emph{back-translation} through one of five pivot languages,
+\emph{paraphrase}, \emph{content-farm} rewriting with one of four personas, and \emph{summary}. Half of the paraphrase
+and content-farm copies come from a second generator, Phi-3.5-mini-instruct, which lets us test transfer across
+generators. A copy is kept only if it still states the wrong answer and does not mention the gold answer; the filter
+keeps 99.2\% of the verbatim copies and 73 to 85\% of the LLM-written ones, 25{,}142 copies in total. For each question
+we also write three \emph{independent wrong} pages from different base pages without showing the origin, and sample 12
+distractor pages from other questions. The 760 questions are split by question into 304 training questions, used only
+to train the dependence classifier and to select demonstrations, and 456 test questions.
+
+\para{Settings.} \textbf{A (main):} one wrong origin with $m\in\{0,1,2,4,8\}$ mixed-type copies against
+$k\in\{1,2,3\}$ independent correct pages and two distractors, shuffled. For $k\geq2$ the independent majority is
+correct for every $m$; for $k{=}1$ the origins are tied and the reader's own knowledge decides.
+\textbf{Types:} $m{=}4$ copies of a single type, $k{=}2$. \textbf{B:} $m\in\{1,2,3\}$ \emph{independent} wrong pages
+without copies against $k{=}2$; a method should follow the independent majority here, and B-agree measures whether it
+does. \textbf{Style:} the correct pages are LLM-paraphrased as well, so that machine-written text no longer signals a
+wrong answer. \textbf{C:} the true page with $m\in\{2,4\}$ copies against $w\in\{1,2\}$ independent wrong pages.
+\textbf{Ranked:} pages in dense-retriever (bge-base) order. \textbf{Noisy:} $d\in\{0,6,10\}$ additional distractors.
+Real pages keep their true domains. Generated pages receive a domain from a list of fictitious sites and a simulated
+date, with copies dated after their origin; the metadata variant L+meta therefore serves only as a reference point.
+
+\para{HotpotQA-echo and RAMDocs.} For search agents we build 300 HotpotQA~\cite{yang2018hotpotqa} distractor-dev
+questions in which the answer-bearing gold paragraph is rewritten into a wrong origin with four copies, added to a local
+search index of 14{,}236 passages. RAMDocs~\cite{wang2025ramdocs} (500 questions) provides natural conflicts from
+ambiguity, misinformation and noise, with an imbalanced number of supporting documents and no synthetic copies.
+
+% =====================================================================================================================
+\section{Method: IndieRAG}\label{sec:method}
+% =====================================================================================================================
+\para{Claims.} The reader extracts one short answer per page with the instruction ``answer only from this document, or
+NONE''. Answers are grouped by normalised string equality, containment or token-F1${\geq}0.6$. All claim-based methods
+(majority vote, ACCU, IndieVote, IndieBayes and \sys{}) share this step.
+
+\para{Shared-origin estimation.} For every pair of pages we estimate $P_{ij}=\Pr[o(d_i)=o(d_j)]$ from four cheap feature
+groups.
+(i)~\emph{Lexical}: 5-gram and 3-gram Jaccard and 5-gram containment.
+(ii)~\emph{Semantic}: bge-base cosine and its gap to 3-gram overlap, which is large for paraphrases.
+(iii)~\emph{Rare shared facts}: independent sources share common facts but seldom the same rare
+details~\cite{dong2009integrating}. From each page we extract numbers, capitalised phrases and words with IDF$\geq4$
+(excluding question terms) and use the IDF-weighted overlap of the shared set, its maximum IDF and its size.
+(iv)~\emph{Machine text}: the minimum and maximum over the pair of a Fast-DetectGPT~\cite{bao2024fastdetectgpt}
+curvature score (Qwen2.5-1.5B), plus the length ratio.
+\textbf{H} is a training-free rule,
+$P_{ij}=\max\!\big(c_5,\ \sigma(12(\rho_{ij}-0.3))\cdot\mathbb{1}[\cos_{ij}>0.7]\big)$, with $c_5$ the 5-gram
+containment and $\rho_{ij}$ the rare-fact overlap. \textbf{L} is a gradient-boosted classifier (300 trees) trained on
+238{,}581 page pairs from the 304 training questions only. \textbf{LLM} asks the reader whether two passages derive from
+the same source, for candidate pairs with cosine${\geq}0.75$ or 3-gram Jaccard${\geq}0.1$.
+
+\para{Origin clusters and effective sample size.} Pages are clustered by union-find over edges $P_{ij}\geq\theta$
+($\theta{=}0.5$). For an answer group $G$ with weights $w$ (uniform here), the effective number of independent sources is
+the Kish effective sample size under correlation $P$:
+\begin{equation}
+\ess(G)=\frac{\left(\sum_{i\in G}w_i\right)^2}{w_G^{\top}P_G\,w_G},\qquad P_G=[P_{ij}]_{i,j\in G},\ P_{ii}=1.
+\end{equation}
+It equals $|G|$ for independent pages and 1 for $|G|$ exact copies, and changes smoothly with uncertain $P$.
+
+\para{Aggregators.} \textbf{IndieVote} returns the answer with the largest ESS, breaking ties by page count.
+\textbf{IndieBayes} is a copy-aware ACCU-style update~\cite{dong2009integrating}: supporting pages are ordered by
+estimated accuracy and the vote of $d_i$ is discounted by $\prod_{j\prec i}(1-0.9P_{ij})$ over 5 EM iterations.
+\textbf{\sys{}} gives the reader an \emph{evidence table} that lists, for each candidate answer, the number of pages
+and the approximate number of independent origins, sorted by ESS, together with one representative page (the longest)
+per origin cluster. The prompt asks the reader to weigh independent origins and to use its own knowledge when the
+evidence is balanced, which resolves the tied case $k{=}1$ that a vote cannot.
+
+\para{IndieSearch.} A ReAct-style agent~\cite{jin2025searchr1} receives, after every search, an
+\texttt{<evidence\_status>} block with the pages and ESS of each candidate answer. If it tries to answer while the
+leading answer has $\ess<\tau$ ($\tau{=}1.5$), it is asked once to search again with a differently phrased query that
+excludes pages already seen and pages with cosine${>}0.9$ to them.
+
+\input{tables/main}
+% =====================================================================================================================
+\section{Experimental Setup}\label{sec:setup}
+% =====================================================================================================================
+\para{Readers.} Qwen2.5-7B-Instruct (primary) and Qwen3-8B run on the full grid; Granite-3.3-8B-Instruct (second family)
+and Qwen2.5-32B-Instruct-AWQ (scale) run settings A and B with six methods. All use vLLM, greedy decoding and an 8k
+context.
+
+\para{Baselines.} Vanilla RAG. \emph{Deduplication before reading:} 5-gram containment${\geq}0.5$, the quantity
+MinHash/LSH approximates~\cite{broder1997resemblance}, and SemDeDup~\cite{abbas2023semdedup} (bge cosine${\geq}0.95$).
+\emph{Claims and aggregation:} majority vote (isolate-then-aggregate as in RobustRAG~\cite{xiang2024robustrag}), the
+same vote after near-duplicate or SemDeDup clustering (``Near-dup + vote'' and ``SemDeDup + vote'', which are IndieVote
+with a binary similarity-based dependence), and ACCU without copy detection (source-accuracy truth
+discovery~\cite{dong2009integrating}, the within-query analogue of RA-RAG~\cite{hwang2024rarag}).
+\emph{Robust RAG:} Astute RAG~\cite{wang2024astute}, InstructRAG-ICL~\cite{wei2025instructrag}, TrustRAG's filtering
+stage~\cite{zhou2025trustrag}, MADAM-RAG~\cite{wang2025ramdocs} with one agent per document and two debate rounds, and
+CAG in prompted form~\cite{pan2024cag}, where the reader rates each page's credibility from 1 to 10 and sees the
+ratings. All baselines use the same reader; variants that need fine-tuning (InstructRAG-FT, CAG and CrAM training,
+cross-query RA-RAG) are outside our scope.
+
+\para{Budget.} Each reader is evaluated on the first 200 test questions, 6{,}537 instances for the full grid.
+Expensive methods run on subsets of condition groups, and every average covers only conditions that all compared
+methods ran on (``--'' otherwise); MADAM-RAG, for example, ran at $m\in\{0,2,8\}$, $k{=}2$.
+
+\para{Metrics and statistics.} \emph{Accuracy}: the output contains a gold alias. \emph{Wrong}: it contains the
+injected wrong answer. On RAMDocs, accuracy requires all valid answers and no misinformation answer. Paired
+differences use a question-clustered bootstrap with 5{,}000 resamples, since instances of one question are dependent,
+and Holm correction over the 12 baselines. An LLM judge (Qwen3-8B) re-grading 700 EchoBench predictions agrees with
+string matching on 97.4\% of them (Cohen $\kappa{=}0.94$, ranking Kendall $\tau{=}0.80$). On RAMDocs agreement is
+81.4\% ($\kappa{=}0.56$), mostly because string matching misses paraphrased multi-answers, and the method ranking is
+preserved ($\tau{=}0.92$; Table~\ref{tab:judge}).
+
+% =====================================================================================================================
+\section{Results}\label{sec:results}
+% =====================================================================================================================
+
+\subsection{Echoes mislead RAG readers}\label{sec:rq1}
+\para{Accuracy falls with every added copy.} With $k{=}2$ independent correct pages, Qwen2.5-7B's accuracy falls from
+86.5\% at $m{=}0$ to 71.0\%, 61.5\% and 49.5\% at $m{=}2,4,8$ (Figure~\ref{fig:susc}b). Three independent correct pages
+still lose ground to one origin echoed eight times (87.5\% to 52.5\%, Figure~\ref{fig:susc}c). Qwen3-8B follows the
+same curve (88.0\% to 59.5\% at $k{=}2$), and so does the 32B reader, which drops from 88.0\% clean to 63.0\% at
+$m{=}8$ (Table~\ref{tab:readers}). The wrong outputs are the echoed answer: 31.9\% of all echo-condition outputs
+contain it (Table~\ref{tab:main}).
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/copytypes.pdf}
+\vspace{-5mm}
+\caption{\textbf{By copy type.} (a) Recall of origin--copy pairs at threshold 0.5 per estimator, and false-positive rate on
+independent pairs (right column). (b) Accuracy with four copies of a single type ($k{=}2$, Qwen2.5-7B; 150 to 199
+questions per type). Lexical and embedding deduplication miss paraphrase, content-farm and summary copies, which the
+learned estimator finds.}
+\label{fig:copytypes}
+\vspace{-1mm}
+\end{figure*}
+\para{Voting over pages amplifies the problem.} Per-document majority vote, the literal form of page counting,
+collapses to 24.5\% at $m{=}8$ with a slope of $-$0.203, against $-$0.119 for vanilla RAG. ACCU-style truth discovery
+without copy detection is identical to it in every condition, because copies agree with each other and so appear
+reliable.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/susceptibility.pdf}
+\vspace{-5mm}
+\caption{\textbf{Accuracy vs.\ number of copies of one wrong origin} (Qwen2.5-7B). (a to c) Setting A with $k$
+independent correct pages, 200 test questions per point; (d) style-matched control in which the correct pages are
+LLM-rewritten as well, 183 questions per point. Shaded: 95\% bootstrap bands for vanilla RAG and \sys{}-L. Majority
+vote (dotted) collapses; \sys{}-L (red) stays nearly flat and close to the oracle-dependence upper bound (dashed).}
+\label{fig:susc}
+\vspace{-1mm}
+\end{figure*}
+
+\para{Deduplication removes only verbatim echoes.} Near-duplicate removal raises accuracy with verbatim copies from
+70.9\% to 81.9\% and leaves paraphrases (57.6\%) and content-farm rewrites (63.6\%) at the vanilla level
+(Figure~\ref{fig:copytypes}b). SemDeDup also catches back-translations (82.3\%) and misses content-farm copies (66.0\%)
+and summaries (66.7\%). Over all echo conditions, the two raise accuracy from 61.0\% to 64.0\% and 66.2\%.
+
+\para{Robust-RAG baselines help partially and depend on the reader.} Astute RAG answers conservatively, with the lowest
+wrong-answer rate among baselines (13.3\%), and reaches 67.4\% echo accuracy with Qwen2.5-7B, 46.3\% with Qwen3-8B and
+27.1\% with Granite. InstructRAG-ICL and prompted CAG have the best clean accuracy (87.3\% and 86.8\%) and still slope
+down ($-$0.102 and $-$0.099). MADAM-RAG reaches 54.0\% at $m{=}8$ with 4.8 times the tokens of vanilla RAG.
+
+\subsection{Counting sources restores accuracy}\label{sec:rq2}
+\para{Main result.} \sys{}-L reaches 78.3\% echo accuracy with Qwen2.5-7B and 79.5\% with Qwen3-8B, against
+61.0\% and 68.5\% for vanilla RAG and 68.1\% and 73.7\% for the strongest baseline, prompted CAG. The paired gains are
++17.3\pp{} [13.4, 21.0] and +11.0\pp{} [7.5, 14.7] over vanilla RAG and +10.1\pp{} [6.5, 13.7] and +5.8\pp{}
+[2.5, 9.1] over CAG, and all 24 comparisons with the 12 baselines are significant after Holm correction
+(Table~\ref{tab:sig}). The slope flattens from $-$0.119 to $-$0.017, the wrong-answer rate falls from 31.9\% to
+13.2\%, and clean accuracy is unchanged (80.3\% vs.\ 80.7\%; 84.7\% vs.\ 85.2\%). The training-free estimator H
+reaches 77.5\% and 78.8\%, so most of the gain is available without training data, and oracle origins reach 81.4\% and
+83.8\%.
+
+\input{tables/sig}
+
+\para{The vote and the reader complement each other.} IndieVote-L turns the collapsing majority vote into a flat curve
+(76.0\% at $m{=}8$, $k{=}2$, against 24.5\%) and follows the independent majority in setting B more often than majority
+vote does (B-agree 70.5\% vs.\ 67.9\%), so genuine agreement between independent pages still counts. With $k{=}1$
+the wrong origin and the correct page are one origin each, and the vote falls back to page counts (24.5\% at $m{=}8$),
+which lowers its echo average to 63.6\%. \sys{} hands this tie to the reader's knowledge and keeps 67.0\% at $k{=}1$,
+$m{=}8$, against 36.0\% for vanilla RAG.
+
+\input{tables/controls}
+
+\para{Controls for style, order and noise.} All wrong pages in EchoBench are LLM-written, so a method could learn that
+machine-written text is wrong. When the correct pages are LLM-rewritten as well, \sys{}-L keeps
+77.0\% at $m{=}8$ against 47.5\% for vanilla RAG (Table~\ref{tab:controls}, Figure~\ref{fig:susc}d), and dropping the
+machine-text feature changes IndieVote-L's echo accuracy by 0.0 and +0.1 points (Table~\ref{tab:ablation}).
+Retriever-ordered pages (79.0\% vs.\ 56.5\% at $m{=}8$) and ten extra distractors (81.0\% vs.\ 57.0\%) give the same
+picture. Setting C shows what the method optimises. When the true page is the echoed one and two independent pages
+disagree with it, the independent majority is wrong; IndieVote follows the independent majority as designed (44.9\%
+accuracy at $m{=}2$, $w{=}2$), page counting follows the echo (85.7\%), and \sys{}-L, whose reader can override a
+balanced table, lies in between (64.3\%).
+
+\input{tables/ablation}
+
+\para{Grouping pages by origin is the main mechanism.} Table~\ref{tab:ablation} varies the reader input. With the
+evidence table but all pages in context, echo accuracy is 62.5\%: the reader is still swayed by the copies it reads.
+Showing one page per origin cluster gives 79.2\% even without the table. The table adds 1.5 points of clean accuracy and
+helps on RAMDocs (32.2\% vs.\ 27.8\% and 41.0\% vs.\ 36.2\%, Table~\ref{tab:ramdocs}). Among the features, the rare-fact group matters most end to end (63.6\% to 62.9\% and 67.1\%
+to 66.3\% without it), and a lexical-only classifier loses 2.0 and 1.3 points. The clustering threshold matters
+little: at $m{=}8$, $k{=}2$, $\theta\in\{0.3,0.5,0.7\}$ gives 77.5, 80.0 and 81.5\%.
+
+\subsection{Across readers and on natural conflicts}\label{sec:readers}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\linewidth]{figures/readers.pdf}
+\vspace{-5mm}
+\caption{Echo accuracy (bars) and clean accuracy (black ticks) across reader families and scales. IndieVote-L needs no
+reader prompt and beats majority vote for every reader; \sys{}-L gives the largest gains for readers that use its
+evidence table.}
+\label{fig:readers}
+\vspace{-2mm}
+\end{figure}
+Figure~\ref{fig:readers} summarises the four readers. At 32B, \sys{}-L reaches 87.3\% echo accuracy against 72.1\% for
+vanilla RAG and 84.4\% for Astute RAG, the strongest baseline there. The vote and the reader variant suit different
+readers: Granite-3.3-8B makes poor use of the grouped prompt (63.2\% clean accuracy with it, 85.8\% without), and for
+this reader the prompt-free IndieVote-L is the better choice (68.6\% vs.\ 67.0\% for vanilla RAG). On RAMDocs, with
+natural conflicts and no synthetic copies, \sys{}-L improves over vanilla RAG by +6.2\pp{} (Holm $p{=}0.020$) and
++10.4\pp{} ($p{=}0.002$) and over MADAM-RAG, the method proposed with RAMDocs, by +6.8 and +20.2 points; 5-gram
+deduplication performs on par here (35.6\% and 42.4\%, differences n.s.; Table~\ref{tab:ramdocs}), which suggests
+that RAMDocs' imbalanced support comes mostly from near-identical documents.
+
+
+\subsection{Shared origin is detectable}\label{sec:rq3}
+On the 456 test pools, L reaches 99.6 AUC (95\% CI [99.5, 99.7]) and an origin-clustering ARI of 0.882
+(Table~\ref{tab:dep}). The deduplication estimators reach 53.8 and 60.0 AUC: they find verbatim copies (100\% and
+81.5\% recall) and almost none of the content-farm copies or summaries (at most 0.5\%, Figure~\ref{fig:copytypes}a).
+The LLM pair judge is precise (0.2\% false positives), recalls 53.0\% of content-farm and 54.7\% of summary copies, and
+takes 5.4\,s per pool against 24\,ms for L on a CPU. Rare shared facts carry the most information (ARI 0.882 to 0.799
+without them), and 25 training questions already give 99.5 AUC. The hardest negatives are independent pages that state
+the \emph{same} wrong answer as the copies (8.9\% false positives) or the same correct answer (4.9\%).
+
+\input{tables/dependence}
+\para{Transfer.} Trained without any Phi-3.5 copies, L still recalls 94.2\% of that generator's content-farm copies and
+93.3\% of its paraphrases (98.2\% and 97.9\% when trained on them). Applied unchanged to HotpotQA-echo, whose Wikipedia
+paragraphs differ in style from web pages, L keeps 97.8 AUC with an AP of 73.6. The ESS computed from L is off by 0.12
+origins on average, against 3.0 for page counts. In our pools the dense retriever ranks copies and correct pages
+similarly (mean normalised ranks 0.42 to 0.55 vs.\ 0.425), and because copies are numerous, 85.5\% of top-3 lists
+contain at least one LLM-written copy.
+
+\subsection{Illusory consensus on real search results}\label{sec:web}
+We apply L, trained only on EchoBench, to the unmodified cached Bing results of 1{,}000 further TriviaQA questions
+(6{,}397 pages, 6.4 per question). 27.4\% [25.6, 29.2] of the pages fall into a dependent cluster, against 10.9\%
+[9.7, 12.2] with a lexical near-duplicate (Figure~\ref{fig:theory}b), and the gold answer is supported by 1.45 times
+as many pages as independent origins. These are model estimates, since real pages carry no origin labels. In this 2017
+snapshot the dependence seldom changes the winning answer: of the 297 questions whose pages support two or more
+answers, page and origin majorities disagree in 3.7\%.
+
+\input{tables/web}
+
+On these pages IndieVote-L matches vanilla RAG (91.1\% vs.\ 91.3\% and 91.3\% vs.\ 92.1\%, both n.s.;
+Table~\ref{tab:web}). \sys{}-L trades 2.1 and 2.4 points on all questions for its robustness to echoes, and on the
+conflict questions its difference to vanilla RAG is not significant ($-$1.3 and +1.4\pp). We therefore recommend the
+reader variant where echoed misinformation is expected, for example in poisoning-prone corpora, and IndieVote-L where
+echoes are rare.
+
+\subsection{Search agents and cost}\label{sec:agents}
+With four copies in the index, IndieSearch answers 77.7\% of EchoBench questions correctly against 73.3\% for ReAct with
+the same 7B policy and 67.7\% for the RL-trained Search-R1, and gives the echoed answer less often (14.7\% vs.\ 16.7\%
+and 23.0\%; Table~\ref{tab:agents}). The paired gain over ReAct is +4.3\pp{} [$-$0.3, +9.3] ($p{=}0.080$, 300
+questions). The seek-again rule carries the gain: evidence-status feedback alone ($\tau{=}0$) reaches 69.0\%. On
+multi-hop HotpotQA-echo, prompted agents perform alike and Search-R1, trained on HotpotQA, is best.
+\sys{}-L costs 9.5 LLM calls per instance (8.5 claim extractions with 17 generated tokens in total, plus one reader
+call), 4.9k prompt tokens and two sequential rounds; dependence estimation takes 6\,ms on a CPU (Table~\ref{tab:cost},
+Figure~\ref{fig:cost}). This is twice the tokens of vanilla RAG, similar to prompted CAG (5.2k), and less than half of
+MADAM-RAG (11.2k tokens, 18.9 calls).
+
+% =====================================================================================================================
+\section{Scope and Ethics}\label{sec:limits}
+% =====================================================================================================================
+EchoBench copies come from two 4B to 7B LLMs and from rules, and copy validity is checked automatically (wrong answer
+kept, gold answer absent); larger content-farm models may rewrite more freely, which the cross-generator test and the
+natural-data results address in part. \sys{} measures independent support, so it follows independent majorities and
+discounts echoed truths by design (settings B and C). The RAG readers were evaluated on 200 test questions each, and
+the natural-data study uses a reproducible 2017 snapshot that predates LLM content farms. Shared-origin signals could
+help adversaries diversify poisoned copies; the same signals make cheap mass rewriting less effective. We will
+release the benchmark and code for defensive research. All source pages come from the public TriviaQA release.
+
+% =====================================================================================================================
+\section{Conclusion}
+% =====================================================================================================================
+RAG readers, robust-RAG methods and deduplication all treat echoes of one origin as corroboration. \sys{} estimates
+shared origin from text and aggregates claims by their effective number of independent sources. On EchoBench this keeps
+accuracy nearly flat as copies accumulate, with clean accuracy unchanged, and the detector finds the paraphrased and
+content-farm copies that deduplication misses in milliseconds per query. On real Bing results it places more than a
+quarter of the pages in an origin cluster with another retrieved page.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
+
+% =====================================================================================================================
+\appendix
+\section{Additional Results}\label{app:tables}
+% =====================================================================================================================
+This appendix gives the search-agent results, the full significance tests with confidence intervals, the LLM-judge
+validation, results per copy type and per reader, the cost breakdown, the controls for the second reader, RAMDocs, the
+natural-data comparison with confidence intervals, and the accuracy-cost plot.
+
+\input{tables/agents}
+\input{tables/sig_full}
+\input{tables/judge}
+\input{tables/copytypes}
+\input{tables/readers}
+\input{tables/cost}
+\input{tables/controls_qwen3}
+\input{tables/ramdocs}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\linewidth]{figures/web_forest.pdf}
+\vspace{-5mm}
+\caption{Natural web pages: paired accuracy difference to vanilla RAG with 95\% bootstrap CIs, on all 1{,}000 questions
+(dark) and the 297 questions whose pages conflict (light).}
+\label{fig:webforest}
+\vspace{-2mm}
+\end{figure}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\linewidth]{figures/cost.pdf}
+\vspace{-5mm}
+\caption{Echo accuracy vs.\ reader tokens per instance (Qwen2.5-7B; MADAM-RAG omitted as it ran on three conditions).}
+\label{fig:cost}
+\vspace{-2mm}
+\end{figure}
+
+\section{Reproducibility}\label{app:repro}
+One script runs the complete pipeline (benchmark construction, all methods and statistics) as resumable jobs and caches
+every LLM call. The tables in this paper are generated from the result files by a script that copies numbers
+verbatim, and the figures are drawn from the raw results and per-instance predictions. Hyper-parameters: 220-word
+passages; 8 copies per type; $\theta{=}0.5$; $\tau{=}1.5$; SemDeDup cosine 0.95; near-duplicate 5-gram containment 0.5;
+agents use the top-3 results and at most 4 searches; bootstrap with 5{,}000 resamples clustered by question; seed 2026.
+
+\clearpage
+\end{document}

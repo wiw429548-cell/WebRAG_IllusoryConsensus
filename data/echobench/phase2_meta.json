@@ -1,0 +1,18 @@
+{
+  "builder2_used": true,
+  "model": "microsoft/Phi-3.5-mini-instruct",
+  "engine": {
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "tp_requested": 1,
+    "tp": 1,
+    "attempt": 1,
+    "max_model_len": 4096,
+    "gpu_mem": 0.85,
+    "enforce_eager": false,
+    "errors": [],
+    "fallback": false,
+    "argv": "indierag/build_echobench.py --phase gen2",
+    "time": "Sat Oct 10 23:13:07 2026",
+    "backend": "vllm"
+  }
+}

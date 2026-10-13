@@ -1,0 +1,18 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Recall@0.5 of origin--copy pairs by copy type, and false-positive rate on independent pairs (\%).}
+\label{tab:deptypes}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & verbatim & backtrans & paraphrase & ai\_farm & summary & FPR (indep.) \\
+\midrule
+near-dup (5-gram $\geq$0.5) & 100.0 & 6.0 & 0.0 & 0.3 & 0.2 & 0.0 \\
+SemDedup (cos $\geq$0.95) & 81.5 & 61.2 & 14.5 & 0.4 & 0.5 & 0.0 \\
+H & 100.0 & 99.1 & 96.2 & 91.1 & 97.6 & 2.4 \\
+L[full] & 100.0 & 99.6 & 99.3 & 96.3 & 99.5 & 3.8 \\
+LLM & 98.0 & 87.9 & 89.9 & 53.0 & 54.7 & 0.2 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,101 @@
+# =====================================================================
+# IndieRAG — global configuration (run_all.py reads this file)
+# =====================================================================
+seed: 2026
+
+models:
+  builder: Qwen/Qwen2.5-7B-Instruct            # constructs EchoBench (wrong answers, rewrites, copies)
+  builder2: microsoft/Phi-3.5-mini-instruct    # second "content farm" model for copy diversity
+  readers:                                     # RAG readers evaluated in the paper
+    - Qwen/Qwen2.5-7B-Instruct
+    - Qwen/Qwen3-8B
+    - meta-llama/Llama-3.1-8B-Instruct         # gated: needs HF_TOKEN with access; skipped automatically otherwise
+  large_reader: Qwen/Qwen2.5-32B-Instruct-AWQ  # scale analysis (RQ "do larger models believe the majority more?");
+                                               # AWQ-int4 (~19 GB) runs with tensor parallelism over ALL visible GPUs
+  extra_readers:                               # other model families, reduced scope (main + indep groups, key methods)
+    - ibm-granite/granite-3.3-8b-instruct
+  agent_policy: Qwen/Qwen2.5-7B-Instruct
+  searchr1: PeterJinGo/SearchR1-nq_hotpotqa_train-qwen2.5-7b-em-ppo
+  judge: Qwen/Qwen3-8B                         # LLM judge validating the string-match accuracy metric (judge_eval;
+                                               # a different model than the primary reader whose outputs it judges)
+  embedder: BAAI/bge-base-en-v1.5
+  aigc_scorer: Qwen/Qwen2.5-1.5B               # Fast-DetectGPT (analytic) scoring model
+  max_model_len: 8192
+  gpu_mem: 0.85
+
+echobench:
+  n_questions: 1000          # sampled from TriviaQA rc.web validation
+  n_train: 400               # questions used ONLY to train IndieRAG-L's dependence classifier (and few-shot demos)
+  min_answer_pages: 4        # >= 4 distinct-domain pages that mention the gold answer
+  max_correct: 3
+  passage_words: 220
+  copies_per_type: 8
+  copy_types: [verbatim, backtrans, paraphrase, ai_farm, summary]
+  n_indep_wrong: 3           # independently written wrong sources (control setting B)
+  n_distractors: 2
+  n_distractor_pool: 12      # distractor pages stored per question (for the 'noisy' group)
+
+conditions:                  # evaluation grid on test questions
+  main:  {m: [0, 1, 2, 4, 8], k: [1, 2, 3], type: [mixed]}       # setting A: 1 wrong origin + m copies vs k correct
+  types: {m: [4], k: [2], type: [verbatim, backtrans, paraphrase, ai_farm, summary]}
+  indep: {m_indep: [1, 2, 3], k: [2]}                             # setting B: independent wrong sources (no copies)
+  ranked: {m: [0, 2, 8], k: [2]}                                   # documents in retriever (bge) order
+  noisy:  {m: [4], k: [2], d: [0, 6, 10]}                          # 0 / 6 / 10 distractor pages
+  style:  {m: [0, 2, 4, 8], k: [2]}                                # style-matched correct pages (LLM paraphrases)
+  symC:   {m: [2, 4], w: [1, 2]}                                   # setting C: copies of the TRUTH vs w independent wrong
+
+rag:                         # compute budget of the RAG runs (EchoBench); see README.md for the GPU-hour estimate
+  n_test_questions: 200      # first N test questions (sorted qid) are evaluated on the full grid by every reader
+  # method -> condition GROUPS (main/types/indep/ranked/noisy/style/symC) or explicit CONDITION names it is run on.
+  # Methods not listed run on every group. Every table only compares methods on conditions they were all run on.
+  scope:
+    dedup: [main, indep, types, noisy]
+    semdedup: [main, indep, types, noisy, style]
+    trustrag: [main, indep, types, noisy]
+    astute: [main, indep, style, symC, ranked]
+    cag: [main, indep, style, symC]
+    instructrag: [main, indep]
+    "indierag:H": [main, indep]
+    "indierag:L+meta": [main, indep]
+    "indierag:LLM": [main, indep]
+    "indievote:LLM": [main, indep]
+    "indierag:oracle": [main, indep]
+    "indierag_table:L": [main, indep]
+    "indierag_compress:L": [main, indep]
+    madam: [A_mixed_m0_k2, A_mixed_m2_k2, A_mixed_m8_k2, S_mixed_m2_k2, S_mixed_m8_k2]
+    "indierag:L#": [A_mixed_m0_k2, A_mixed_m1_k2, A_mixed_m2_k2, A_mixed_m4_k2, A_mixed_m8_k2]  # threshold sensitivity
+  # end-to-end effect of the dependence-feature ablations (no extra LLM calls: vote over the same claims)
+  ablation_votes: ["indievote:L[-lexical]", "indievote:L[-semantic]", "indievote:L[-rare]", "indievote:L[-aigc]",
+                   "indievote:L[lexical_only]"]
+  # large / extra-family readers: main + indep groups, key methods only
+  reduced_groups: main,indep
+  reduced_methods: vanilla,majority,astute,indievote:L,indiebayes:L,indierag:L
+
+dependence:
+  hard_threshold: 0.5        # clustering threshold on P(dependent)
+  llm_pair_min_cos: 0.75     # candidate pairs for the LLM pairwise judge
+  llm_pair_min_jacc: 0.10
+  ess_tau: 1.5               # IndieSearch: minimum ESS of the leading answer before answering
+  semdedup_cos: 0.95         # SemDedup baseline / 'SemDedup + vote': bge cosine above which two pages are duplicates
+  threshold_sensitivity: [0.3, 0.7]   # extra clustering thresholds for IndieRAG-L (main value: hard_threshold)
+  llm_judge_questions: 100   # dep_eval: the (expensive) LLM pairwise judge is evaluated on the first N test pools
+  learning_curve: [25, 50, 100, 200]  # dep_eval: #train questions for the IndieRAG-L learning curve (+ all)
+
+agent:
+  max_turns: 4
+  topk: 3
+  n_questions: 300
+  global_pool: 20000         # distractor passages in the local search index
+  tau_ablation: [0.0, 2.0]   # IndieSearch ablation: tau=0 -> evidence-status feedback only (never forced to seek);
+                             # tau=2 -> stricter seek rule (main value: dependence.ess_tau)
+
+web_measure:
+  n_questions: 1000
+  n_readers: 2               # web_run for the first N readers (natural-data utility check with >= 2 backbones)
+  max_pages: 10
+  page_chars: 3000
+
+judge_eval:                  # LLM-judge validation of the contains-match accuracy (primary reader's predictions)
+  methods: [vanilla, majority, semdedup, astute, madam, indievote:L, indierag:L]
+  n_echobench: 100           # sampled instances per method (shared by every method; setting A, m>=1)
+  n_ramdocs: 60

@@ -1,0 +1,25 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Measurement on real web search results (TriviaQA rc.web cached Bing results; offline snapshot). Percentages with 95\% bootstrap CIs.}
+\label{tab:web}
+\begin{tabular}{lr}
+\toprule
+Quantity & Value \\
+\midrule
+questions & 1000 \\
+pages & 6397 \\
+pages with a lexical near-duplicate & 10.9 [9.7, 12.2] \\
+pages in a dependent cluster (IndieRAG-L) & 27.4 [25.6, 29.2] \\
+support inflation of the gold answer (\#pages / ESS) & 1.45 [1.40, 1.50] \\
+questions with $\geq2$ answer groups & 297 \\
+page vs.\ independent majority disagree & 3.7 [1.7, 5.7] \\
+accuracy of page majority & 81.5 [77.1, 85.9] \\
+accuracy of independent majority & 81.8 [77.4, 86.2] \\
+Vanilla RAG accuracy & 91.3 [89.6, 93.0] \\
+Majority vote accuracy & 91.0 [89.3, 92.6] \\
+IndieVote-L accuracy & 91.1 [89.5, 92.7] \\
+IndieRAG-L accuracy & 89.2 [87.2, 91.1] \\
+\bottomrule
+\end{tabular}
+\end{table}

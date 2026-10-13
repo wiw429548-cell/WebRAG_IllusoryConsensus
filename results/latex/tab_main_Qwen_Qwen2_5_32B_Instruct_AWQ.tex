@@ -1,0 +1,21 @@
+\begin{table*}[tbp]
+\centering
+\small
+\caption{EchoBench setting A (reader Qwen\_Qwen2\_5\_32B\_Instruct\_AWQ; 200 test questions). Accuracy (\%) without copies (Clean, $m{=}0$), with $m$ copies of one wrong origin vs.\ $k{=}2$ independent correct pages, and averaged over $m\geq1$, $k\in\{1,2,3\}$ (Echo avg). Wrong: rate of answering the injected wrong answer. Slope: $d\,$acc$/d\log_2(m{+}1)$ at $k{=}2$. B-agree: agreement with the independent majority in control setting B. Tok/inst: reader tokens per instance.}
+\label{tab:main:Qwen_Qwen2_5_32B_Instruct_AWQ}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Method & Clean & $m{=}2$ & $m{=}8$ & Echo avg & Wrong$\downarrow$ & Slope & B-agree & Tok/inst \\
+\midrule
+Vanilla RAG & 88.0 & 80.0 & 63.0 & 72.1 & 21.9 & -0.087 & 55.9 & 2.4k \\
+Majority vote & 80.5 & 55.0 & 41.5 & 51.7 & 41.0 & -0.152 & \textbf{62.1} & 2.9k \\
+Astute RAG & \textbf{94.0} & \textbf{89.5} & 75.0 & 84.4 & 8.5 & -0.062 & 49.4 & 2.9k \\
+\midrule
+IndieVote-L & 80.5 & 81.5 & 78.5 & 69.6 & 24.0 & -0.031 & 61.3 & 2.9k \\
+IndieBayes-L & 80.5 & 81.5 & 78.5 & 69.6 & 24.0 & -0.031 & 61.3 & 2.9k \\
+IndieRAG-L & 90.7 & 88.5 & \textbf{86.0} & \textbf{87.3} & 7.0 & -0.021 & 53.6 & 4.8k \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\linewidth}{\footnotesize -- = method not run on every condition of the column (reduced scope) or result missing.}
+\end{table*}

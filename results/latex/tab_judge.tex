@@ -1,0 +1,15 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Validity of the string-match metric: an LLM judge (Qwen/Qwen3-8B) re-grades predictions of reader Qwen\_Qwen2\_5\_7B\_Instruct (same random instances for every method). Agreement and disagreement rates in \%; Kendall $\tau$ between the method rankings under the judge and under the metric.}
+\label{tab:judge}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & \#judgements & agreement & Cohen $\kappa$ & judge yes / metric no & judge no / metric yes & Kendall $\tau$ (ranking) \\
+\midrule
+EchoBench ($m\geq1$, strict) & 700 & 97.4 & 0.94 & 0.9 & 1.7 & 0.80 \\
+RAMDocs (all valid) & 420 & 81.4 & 0.56 & 14.8 & 3.8 & 0.92 \\
+\bottomrule
+\end{tabular}
+\end{table}

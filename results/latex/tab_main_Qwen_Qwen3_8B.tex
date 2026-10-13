@@ -1,0 +1,38 @@
+\begin{table*}[tbp]
+\centering
+\small
+\caption{EchoBench setting A (reader Qwen\_Qwen3\_8B; 200 test questions). Accuracy (\%) without copies (Clean, $m{=}0$), with $m$ copies of one wrong origin vs.\ $k{=}2$ independent correct pages, and averaged over $m\geq1$, $k\in\{1,2,3\}$ (Echo avg). Wrong: rate of answering the injected wrong answer. Slope: $d\,$acc$/d\log_2(m{+}1)$ at $k{=}2$. B-agree: agreement with the independent majority in control setting B. Tok/inst: reader tokens per instance.}
+\label{tab:main:Qwen_Qwen3_8B}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Method & Clean & $m{=}2$ & $m{=}8$ & Echo avg & Wrong$\downarrow$ & Slope & B-agree & Tok/inst \\
+\midrule
+Vanilla RAG & 85.2 & 76.0 & 59.5 & 68.5 & 26.7 & -0.090 & 59.0 & 2.5k \\
+Dedup (5-gram) & 85.3 & 78.0 & 58.0 & 70.4 & 24.7 & -0.094 & 59.0 & 2.3k \\
+SemDedup (emb.) & 85.2 & 78.0 & 65.0 & 73.0 & 22.2 & -0.069 & 59.0 & 2.2k \\
+Majority vote & 78.2 & 37.5 & 27.5 & 40.6 & 51.6 & -0.200 & \textbf{68.4} & 2.8k \\
+Near-dup + vote & 78.2 & 60.0 & 31.5 & 47.7 & 45.0 & -0.189 & \textbf{68.4} & 2.8k \\
+SemDedup + vote & 78.2 & 64.0 & 36.5 & 51.3 & 41.4 & -0.170 & \textbf{68.4} & 2.8k \\
+Astute RAG & 70.2 & 50.0 & 26.0 & 46.3 & 7.9 & -0.137 & 38.9 & 2.9k \\
+InstructRAG-ICL & \textbf{87.3} & 78.5 & 69.0 & 73.6 & 34.8 & -0.067 & 64.6 & 2.7k \\
+TrustRAG (filter) & 85.2 & 77.5 & 61.5 & 70.1 & 25.0 & -0.083 & 58.7 & 2.5k \\
+MADAM-RAG & -- & 63.5 & 46.5 & -- & -- & -- & -- & 11.4k \\
+CAG (prompted) & 84.7 & 80.0 & 68.5 & 73.7 & 22.6 & -0.064 & 56.6 & 5.1k \\
+ACCU (no copy det.) & 78.2 & 37.5 & 27.5 & 40.6 & 51.6 & -0.200 & \textbf{68.4} & 2.8k \\
+\midrule
+IndieVote-H & 78.2 & 83.0 & 79.0 & 67.1 & 25.8 & -0.027 & \textbf{68.4} & 2.8k \\
+IndieVote-L & 78.0 & 83.5 & 79.0 & 67.1 & 26.0 & -0.027 & 67.5 & 2.8k \\
+IndieVote-LLM & 78.0 & 76.5 & 71.0 & 63.2 & 29.8 & -0.054 & 65.8 & 9.7k \\
+IndieBayes-L & 78.0 & 84.0 & 78.5 & 66.9 & 26.1 & -0.029 & 67.5 & 2.8k \\
+IndieRAG-H & 83.7 & 84.5 & 78.0 & 78.8 & 14.0 & -0.025 & 59.8 & 4.5k \\
+IndieRAG-L & 84.7 & 84.0 & 79.5 & 79.5 & 14.3 & -0.027 & 62.1 & 4.8k \\
+IndieRAG-L+meta & 84.5 & \textbf{87.0} & \textbf{82.5} & \textbf{81.4} & 12.5 & -0.018 & 61.4 & 4.6k \\
+IndieRAG-LLM & 83.8 & 85.0 & 79.5 & 78.5 & 15.0 & -0.025 & 58.1 & 11.6k \\
+\midrule
+IndieVote-oracle & 78.2 & 84.0 & 80.5 & 67.5 & 25.7 & -0.023 & 68.4 & 2.8k \\
+IndieRAG-oracle & 84.7 & 88.0 & 85.5 & 83.8 & 10.8 & -0.010 & 63.3 & 4.6k \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\linewidth}{\footnotesize -- = method not run on every condition of the column (reduced scope) or result missing.}
+\end{table*}

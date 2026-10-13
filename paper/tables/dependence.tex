@@ -1,0 +1,30 @@
+\begin{table}[!t]
+\centering
+\caption{\textbf{Shared-origin detection} on the pools of the 456 EchoBench test questions (189{,}746 pairs, 59.5\%
+dependent). AUC/AP/F1@0.5 in \%; ARI of the origin clustering at $\theta{=}0.5$; ms per pool. $^{*}$Simulated metadata.}
+\label{tab:dep}
+\setlength{\tabcolsep}{3.5pt}
+\small
+\rowcolors{3}{white}{rowc}
+\begin{tabular}{l rrrrr}
+\toprule
+\hdr \textbf{Estimator} & AUC & AP & F1 & ARI & ms \\
+\midrule
+\grp{6}{Estimators}
+5-gram near-dup ($\geq$0.5) & 53.8 & 62.5 & 14.2 & 0.096 & 1 \\
+SemDeDup (cos $\geq$0.95) & 60.0 & 67.6 & 33.4 & 0.320 & 0 \\
+LLM pair judge (Qwen2.5-7B) & 95.0 & 94.5 & 76.2 & \best{0.923} & 5388 \\
+\ours Ours: H (rule, no training) & \scnd{99.2} & \scnd{99.4} & \scnd{96.9} & \scnd{0.904} & 26 \\
+\ours Ours: L (learned) & \best{99.6} & \best{99.7} & \best{97.7} & 0.882 & 24 \\
+\ours Ours: L + metadata$^{*}$ & 99.9 & 99.9 & 99.0 & 0.949 & 24 \\
+\grp{6}{Ablations and learning curve of L}
+\quad L $-$lexical & 99.6 & 99.7 & 97.7 & 0.880 & 24 \\
+\quad L $-$semantic & 99.6 & 99.7 & 97.6 & 0.872 & 24 \\
+\quad L $-$rare facts & 99.1 & 99.3 & 96.4 & 0.799 & 24 \\
+\quad L $-$machine-text score & 99.6 & 99.7 & 97.8 & 0.881 & 24 \\
+\quad L lexical only & 97.9 & 98.5 & 94.4 & 0.763 & 24 \\
+\quad L, 25 training questions & 99.5 & 99.6 & 96.9 & 0.907 & 24 \\
+\quad L, 100 training questions & 99.5 & 99.6 & 97.4 & 0.882 & 24 \\
+\bottomrule
+\end{tabular}
+\end{table}

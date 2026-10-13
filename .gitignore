@@ -1,0 +1,32 @@
+# files produced by scripts/unpack.py (the compressed .jsonl.gz versions are tracked)
+data/**/*.jsonl
+results/**/preds/*.jsonl
+results/agent/**/preds.jsonl
+
+# downloaded inputs, model caches and features rebuilt by the pipeline
+data/raw/
+data/cache/
+data/features/*.npy
+data/features/docstore.json
+data/features/q_index.json
+
+# run outputs
+logs/*.log
+!logs/eb_select.log
+!logs/eb_gen1.log
+!logs/eb_assemble.log
+logs/_status.json
+run.log
+results/**/run.log
+
+# LaTeX build files
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+
+__pycache__/
+*.pyc

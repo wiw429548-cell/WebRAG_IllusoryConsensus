@@ -1,0 +1,23 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Search agents with a local dense search engine: ReAct (instruction model), Search-R1 (RL-trained) and IndieSearch (ReAct + evidence-status feedback + seek-independent step). $m$: injected copies of a wrong origin.}
+\label{tab:agents}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & acc $m{=}0$ & acc $m{=}4$ & 95\% CI & wrong $m{=}4$ & \#search & $n$ \\
+\midrule
+echobench\_PeterJinGo\_SearchR1\_nq\_hotpotqa\_train\_qwen2\_5\_7b\_em\_ppo\_react & \textbf{87.3} & 67.7 & [62.3, 73.3] & 23.0 & 1.57 & 300 \\
+echobench\_Qwen\_Qwen2\_5\_7B\_Instruct\_indie & \textbf{87.3} & \textbf{77.7} & [72.7, 82.3] & 14.7 & 2.04 & 300 \\
+echobench\_Qwen\_Qwen2\_5\_7B\_Instruct\_indie\_tau0 & 86.3 & 69.0 & [63.3, 74.3] & 20.7 & 1.30 & 300 \\
+echobench\_Qwen\_Qwen2\_5\_7B\_Instruct\_indie\_tau2 & 86.3 & 73.7 & [68.7, 78.7] & 18.3 & 2.55 & 300 \\
+echobench\_Qwen\_Qwen2\_5\_7B\_Instruct\_react & 84.0 & 73.3 & [68.3, 78.3] & 16.7 & 0.77 & 300 \\
+hotpot\_PeterJinGo\_SearchR1\_nq\_hotpotqa\_train\_qwen2\_5\_7b\_em\_ppo\_react & 47.0 & 32.0 & [26.7, 37.3] & 35.7 & 2.42 & 300 \\
+hotpot\_Qwen\_Qwen2\_5\_7B\_Instruct\_indie & 41.3 & 26.7 & [22.0, 31.7] & 35.0 & 3.29 & 300 \\
+hotpot\_Qwen\_Qwen2\_5\_7B\_Instruct\_indie\_tau0 & 41.3 & 24.0 & [19.3, 28.7] & 36.7 & 2.37 & 300 \\
+hotpot\_Qwen\_Qwen2\_5\_7B\_Instruct\_indie\_tau2 & 41.3 & 27.0 & [22.3, 32.0] & 35.0 & 3.34 & 300 \\
+hotpot\_Qwen\_Qwen2\_5\_7B\_Instruct\_react & 40.3 & 25.3 & [20.3, 30.3] & 30.3 & 1.33 & 300 \\
+\bottomrule
+\end{tabular}
+\end{table}

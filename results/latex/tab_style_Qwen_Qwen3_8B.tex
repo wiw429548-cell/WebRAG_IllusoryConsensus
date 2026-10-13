@@ -1,0 +1,27 @@
+\begin{table*}[tbp]
+\centering
+\small
+\caption{Style-matched control: correct pages are also LLM-paraphrased (style), so that ``LLM-written = wrong'' cannot be exploited; $k{=}2$ (reader Qwen\_Qwen3\_8B).}
+\label{tab:style:Qwen_Qwen3_8B}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Method & orig $m{=}0$ & style $m{=}0$ & orig $m{=}2$ & style $m{=}2$ & orig $m{=}4$ & style $m{=}4$ & orig $m{=}8$ & style $m{=}8$ \\
+\midrule
+Vanilla RAG & 88.0 & \textbf{91.3} & 76.0 & 80.9 & 70.0 & 69.9 & 59.5 & 59.6 \\
+SemDedup (emb.) & 88.0 & \textbf{91.3} & 78.0 & \textbf{83.1} & 78.5 & 74.9 & 65.0 & 67.8 \\
+Majority vote & \textbf{88.5} & 89.6 & 37.5 & 38.3 & 32.0 & 30.6 & 27.5 & 27.9 \\
+Near-dup + vote & \textbf{88.5} & 89.6 & 60.0 & 60.1 & 38.5 & 35.5 & 31.5 & 31.1 \\
+SemDedup + vote & \textbf{88.5} & 89.6 & 64.0 & 62.3 & 46.0 & 43.7 & 36.5 & 34.4 \\
+Astute RAG & 73.0 & 60.1 & 50.0 & 43.2 & 44.5 & 30.6 & 26.0 & 18.0 \\
+MADAM-RAG & 85.5 & -- & 63.5 & 67.2 & -- & -- & 46.5 & 47.5 \\
+CAG (prompted) & 87.5 & 88.5 & 80.0 & 78.1 & 75.0 & 77.6 & 68.5 & 71.0 \\
+ACCU (no copy det.) & \textbf{88.5} & 89.6 & 37.5 & 38.3 & 32.0 & 30.6 & 27.5 & 27.9 \\
+IndieVote-H & \textbf{88.5} & 89.6 & 83.0 & 81.4 & \textbf{83.5} & 79.2 & 79.0 & 77.0 \\
+IndieVote-L & \textbf{88.5} & 89.6 & 83.5 & 82.0 & 83.0 & \textbf{79.8} & 79.0 & \textbf{78.7} \\
+IndieBayes-L & \textbf{88.5} & 89.6 & \textbf{84.0} & 80.3 & 82.5 & \textbf{79.8} & 78.5 & 78.1 \\
+IndieRAG-L & 87.0 & 84.7 & \textbf{84.0} & 77.0 & 78.5 & \textbf{79.8} & \textbf{79.5} & 77.0 \\
+IndieVote-oracle & 88.5 & 89.6 & 84.0 & 82.5 & 83.5 & 81.4 & 80.5 & 80.3 \\
+\bottomrule
+\end{tabular}
+\end{table*}

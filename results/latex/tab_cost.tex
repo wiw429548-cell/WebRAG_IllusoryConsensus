@@ -1,0 +1,34 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Inference cost per instance (EchoBench, reader Qwen\_Qwen2\_5\_7B\_Instruct), counted as if uncached and stand-alone: reader LLM calls, prompt and generated tokens (including the per-document claim extraction of the vote/IndieRAG methods, the per-document credibility ratings of CAG and the LLM pair judgements of the -LLM variants), number of sequential LLM rounds (latency), and dependence-estimation time per instance.}
+\label{tab:cost}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & LLM calls & prompt tok & gen.\ tok & seq.\ rounds & dep.\ ms & Echo acc \\
+\midrule
+Vanilla RAG & 1.0 & 2.5k & 8 & 1 & -- & 61.0 \\
+Dedup (5-gram) & 1.0 & 2.3k & 8 & 1 & -- & 64.0 \\
+SemDedup (emb.) & 1.0 & 2.2k & 8 & 1 & -- & 66.2 \\
+Majority vote & 8.5 & 3.0k & 17 & 1 & -- & 35.0 \\
+Near-dup + vote & 8.5 & 3.0k & 17 & 1 & 0 & 42.7 \\
+SemDedup + vote & 8.5 & 3.0k & 17 & 1 & 0 & 46.8 \\
+Astute RAG & 2.0 & 2.6k & 189 & 2 & -- & 67.4 \\
+InstructRAG-ICL & 1.0 & 2.5k & 169 & 1 & -- & 66.8 \\
+TrustRAG (filter) & 1.0 & 2.5k & 8 & 1 & -- & 62.2 \\
+MADAM-RAG & 18.9 & 11.2k & 726 & 3 & -- & -- \\
+CAG (prompted) & 8.8 & 5.2k & 26 & 2 & -- & 68.1 \\
+ACCU (no copy det.) & 8.5 & 3.0k & 17 & 1 & -- & 35.0 \\
+\midrule
+IndieVote-H & 8.5 & 3.0k & 17 & 1 & 3 & 63.1 \\
+IndieVote-L & 8.5 & 3.0k & 17 & 1 & 6 & 63.6 \\
+IndieVote-LLM & 19.1 & 10.0k & 27 & 1 & 121 & 59.2 \\
+IndieBayes-L & 8.5 & 3.0k & 17 & 1 & 6 & 63.1 \\
+IndieRAG-H & 8.8 & 4.6k & 79 & 2 & 3 & 77.5 \\
+IndieRAG-L & 9.5 & 4.9k & 81 & 2 & 6 & 78.3 \\
+IndieRAG-L+meta & 8.8 & 4.6k & 80 & 2 & 5 & \textbf{79.7} \\
+IndieRAG-LLM & 20.1 & 11.9k & 91 & 2 & 121 & 77.5 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,25 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{RAMDocs: IndieRAG-L vs.\ baselines (reader Qwen\_Qwen2\_5\_7B\_Instruct; metric: all valid answers and no misinformation answer). $\Delta$ in points; CI and $p$ from a bootstrap over questions (5000 resamples), Holm-corrected over baselines; McNemar for reference.}
+\label{tab:sig:ramdocs}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & \#q & $\Delta$acc & 95\% CI & $p$ & $p_{\text{Holm}}$ & $p_{\text{McNemar}}$ \\
+\midrule
+Vanilla RAG & 500 & +6.2 & [+2.4, +10.0] & 0.002 & 0.020 & 0.002 \\
+Dedup (5-gram) & 500 & -3.4 & [-7.8, +0.8] & 0.123 & 0.614 & 0.135 \\
+SemDedup (emb.) & 500 & +2.8 & [-1.2, +6.8] & 0.184 & 0.736 & 0.206 \\
+Majority vote & 500 & +0.6 & [-3.8, +4.8] & 0.816 & 1.000 & 0.856 \\
+Near-dup + vote & 500 & -0.2 & [-4.6, +3.8] & 0.964 & 1.000 & 1.000 \\
+SemDedup + vote & 500 & +0.6 & [-3.8, +4.8] & 0.816 & 1.000 & 0.856 \\
+Astute RAG & 500 & +4.6 & [+0.6, +8.6] & 0.034 & 0.204 & 0.042 \\
+InstructRAG-ICL & 500 & +5.2 & [+1.2, +9.2] & 0.015 & 0.106 & 0.016 \\
+TrustRAG (filter) & 500 & +5.8 & [+2.0, +9.6] & 0.003 & 0.022 & 0.004 \\
+MADAM-RAG & 500 & +6.8 & [+2.6, +11.0] & 0.002 & 0.020 & 0.002 \\
+CAG (prompted) & 500 & +7.8 & [+4.0, +11.6] & <0.001 & 0.010 & <0.001 \\
+ACCU (no copy det.) & 500 & +6.8 & [+2.6, +10.8] & <0.001 & 0.010 & 0.001 \\
+\bottomrule
+\end{tabular}
+\end{table}

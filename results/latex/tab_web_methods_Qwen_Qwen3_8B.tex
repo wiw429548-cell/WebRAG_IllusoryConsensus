@@ -1,0 +1,28 @@
+\begin{table*}[tbp]
+\centering
+\small
+\caption{All methods on real web search results (TriviaQA rc.web cached Bing pages, 1000 questions, 281 of them with $\geq$2 answer groups among the pages = ``conflict''; reader Qwen\_Qwen3\_8B). Accuracy in \%; $\Delta$ in points with paired bootstrap 95\% CIs over questions; tokens per question as if uncached.}
+\label{tab:webmethods:Qwen_Qwen3_8B}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & acc & 95\% CI & acc (conflict) & $\Delta$ vs.\ vanilla & $\Delta$ vs.\ vanilla (conflict) & IndieRAG-L $-$ method (conflict) & tok/q \\
+\midrule
+Vanilla RAG & 92.1 & [90.4, 93.7] & 84.3 & -- & -- & +1.4 [-2.8, +5.7] & 2.6k \\
+Dedup (5-gram) & 91.8 & [90.1, 93.5] & 84.0 & -0.3 [-0.8, +0.1] & -0.4 [-1.8, +0.7] & +1.8 [-2.5, +6.0] & 2.5k \\
+SemDedup (emb.) & 91.9 & [90.1, 93.6] & 84.3 & -0.2 [-0.6, +0.2] & +0.0 [-1.1, +1.1] & +1.4 [-2.8, +5.7] & 2.5k \\
+Majority vote & 91.4 & [89.7, 93.0] & 84.0 & -0.7 [-2.1, +0.7] & -0.4 [-4.6, +3.9] & +1.8 [-2.8, +6.4] & 3.0k \\
+Near-dup + vote & 91.4 & [89.7, 93.0] & 84.0 & -0.7 [-2.1, +0.7] & -0.4 [-4.6, +3.9] & +1.8 [-2.8, +6.4] & 3.0k \\
+SemDedup + vote & 91.5 & [89.8, 93.1] & 84.3 & -0.6 [-1.9, +0.7] & +0.0 [-3.9, +3.9] & +1.4 [-3.2, +6.0] & 3.0k \\
+Astute RAG & 68.9 & [66.2, 71.6] & 61.6 & -23.2 [-26.0, -20.3] & -22.8 [-28.8, -16.7] & +24.2 [+17.8, +30.6] & 3.1k \\
+InstructRAG-ICL & \textbf{92.8} & [91.0, 94.4] & \textbf{89.3} & +0.7 [-0.7, +2.1] & +5.0 [+1.8, +8.5] & -3.6 [-7.8, +0.4] & 2.9k \\
+TrustRAG (filter) & 91.9 & [90.1, 93.5] & 84.3 & -0.2 [-0.6, +0.2] & +0.0 [-1.1, +1.1] & +1.4 [-2.5, +5.7] & 2.5k \\
+CAG (prompted) & 91.4 & [89.6, 93.0] & 85.8 & -0.7 [-2.2, +0.7] & +1.4 [-2.1, +5.0] & +0.0 [-4.3, +4.3] & 5.7k \\
+ACCU (no copy det.) & 91.4 & [89.7, 93.0] & 84.0 & -0.7 [-2.1, +0.7] & -0.4 [-4.6, +3.9] & +1.8 [-2.8, +6.4] & 3.0k \\
+\midrule
+IndieVote-L & 91.3 & [89.6, 92.9] & 83.6 & -0.8 [-2.2, +0.6] & -0.7 [-5.0, +3.6] & +2.1 [-2.5, +6.8] & 3.0k \\
+IndieBayes-L & 91.4 & [89.7, 93.0] & 84.0 & -0.7 [-2.1, +0.7] & -0.4 [-4.6, +3.9] & +1.8 [-2.8, +6.4] & 3.0k \\
+IndieRAG-L & 89.7 & [87.8, 91.5] & 85.8 & -2.4 [-4.1, -0.7] & +1.4 [-2.8, +5.7] & -- & 5.4k \\
+\bottomrule
+\end{tabular}
+\end{table*}

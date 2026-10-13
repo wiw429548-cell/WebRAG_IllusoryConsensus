@@ -1,0 +1,25 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Setting C (limitation probe): $m$ copies of a TRUE page vs.\ $w$ independent wrong sources (accuracy \%); for $w{=}2$ the independent majority is wrong. indep.-agree: agreement with the independent-origin majority at the largest $m,w$ (reader Qwen\_Qwen3\_8B).}
+\label{tab:symC:Qwen_Qwen3_8B}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & $m{=}2,w{=}1$ & $m{=}2,w{=}2$ & $m{=}4,w{=}1$ & $m{=}4,w{=}2$ & indep.-agree \\
+\midrule
+Vanilla RAG & 86.6 & 81.6 & 89.2 & 89.7 & 10.3 \\
+Majority vote & \textbf{90.1} & \textbf{89.8} & \textbf{95.7} & \textbf{97.1} & 1.5 \\
+Near-dup + vote & \textbf{90.1} & \textbf{89.8} & \textbf{95.7} & \textbf{97.1} & 1.5 \\
+SemDedup + vote & \textbf{90.1} & 82.7 & \textbf{95.7} & 95.6 & 2.9 \\
+Astute RAG & 62.7 & 55.1 & 64.5 & 54.4 & 0.0 \\
+CAG (prompted) & 89.4 & 82.7 & 91.4 & 92.6 & 5.9 \\
+ACCU (no copy det.) & \textbf{90.1} & \textbf{89.8} & \textbf{95.7} & \textbf{97.1} & 1.5 \\
+IndieVote-H & \textbf{90.1} & 44.9 & \textbf{95.7} & 48.5 & \textbf{48.5} \\
+IndieVote-L & \textbf{90.1} & 44.9 & \textbf{95.7} & 48.5 & \textbf{48.5} \\
+IndieBayes-L & \textbf{90.1} & 44.9 & \textbf{95.7} & 50.0 & 47.1 \\
+IndieRAG-L & 77.5 & 64.3 & 84.9 & 73.5 & 29.4 \\
+IndieVote-oracle & 90.1 & 44.9 & 95.7 & 48.5 & 48.5 \\
+\bottomrule
+\end{tabular}
+\end{table}

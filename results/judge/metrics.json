@@ -1,0 +1,136 @@
+{
+  "reader": "Qwen/Qwen2.5-7B-Instruct",
+  "judge": "Qwen/Qwen3-8B",
+  "datasets": {
+    "echobench": {
+      "metric": "acc_strict",
+      "n_instances": 100,
+      "n_judgements": 700,
+      "methods": [
+        "vanilla",
+        "majority",
+        "semdedup",
+        "astute",
+        "madam",
+        "indievote:L",
+        "indierag:L"
+      ],
+      "agreement": 0.9742857142857143,
+      "kappa": 0.9432739059967585,
+      "agreement_loose_acc": 0.9657142857142857,
+      "kappa_loose_acc": 0.9239378463544498,
+      "judge_yes_metric_no": 0.008571428571428572,
+      "judge_no_metric_yes": 0.017142857142857144,
+      "kendall_tau_method_ranking": 0.7999999999999999,
+      "per_method": {
+        "vanilla": {
+          "judge_acc": 0.63,
+          "metric_acc": 0.65,
+          "loose_acc": 0.65,
+          "n": 100
+        },
+        "majority": {
+          "judge_acc": 0.35,
+          "metric_acc": 0.36,
+          "loose_acc": 0.36,
+          "n": 100
+        },
+        "semdedup": {
+          "judge_acc": 0.72,
+          "metric_acc": 0.73,
+          "loose_acc": 0.73,
+          "n": 100
+        },
+        "astute": {
+          "judge_acc": 0.68,
+          "metric_acc": 0.64,
+          "loose_acc": 0.68,
+          "n": 100
+        },
+        "madam": {
+          "judge_acc": 0.63,
+          "metric_acc": 0.65,
+          "loose_acc": 0.66,
+          "n": 100
+        },
+        "indievote:L": {
+          "judge_acc": 0.76,
+          "metric_acc": 0.77,
+          "loose_acc": 0.77,
+          "n": 100
+        },
+        "indierag:L": {
+          "judge_acc": 0.77,
+          "metric_acc": 0.8,
+          "loose_acc": 0.81,
+          "n": 100
+        }
+      }
+    },
+    "ramdocs": {
+      "metric": "acc_all",
+      "n_instances": 60,
+      "n_judgements": 420,
+      "methods": [
+        "vanilla",
+        "majority",
+        "semdedup",
+        "astute",
+        "madam",
+        "indievote:L",
+        "indierag:L"
+      ],
+      "agreement": 0.8142857142857143,
+      "kappa": 0.5640486519575227,
+      "agreement_loose_acc": 0.4142857142857143,
+      "kappa_loose_acc": 0.06312906911372673,
+      "judge_yes_metric_no": 0.14761904761904762,
+      "judge_no_metric_yes": 0.0380952380952381,
+      "kendall_tau_method_ranking": 0.9192547197409878,
+      "per_method": {
+        "vanilla": {
+          "judge_acc": 0.31666666666666665,
+          "metric_acc": 0.21666666666666667,
+          "loose_acc": 0.9666666666666667,
+          "n": 60
+        },
+        "majority": {
+          "judge_acc": 0.3333333333333333,
+          "metric_acc": 0.23333333333333334,
+          "loose_acc": 0.9833333333333333,
+          "n": 60
+        },
+        "semdedup": {
+          "judge_acc": 0.4,
+          "metric_acc": 0.26666666666666666,
+          "loose_acc": 0.9666666666666667,
+          "n": 60
+        },
+        "astute": {
+          "judge_acc": 0.2833333333333333,
+          "metric_acc": 0.21666666666666667,
+          "loose_acc": 0.8333333333333334,
+          "n": 60
+        },
+        "madam": {
+          "judge_acc": 0.3333333333333333,
+          "metric_acc": 0.23333333333333334,
+          "loose_acc": 0.85,
+          "n": 60
+        },
+        "indievote:L": {
+          "judge_acc": 0.3333333333333333,
+          "metric_acc": 0.25,
+          "loose_acc": 0.9833333333333333,
+          "n": 60
+        },
+        "indierag:L": {
+          "judge_acc": 0.48333333333333334,
+          "metric_acc": 0.3,
+          "loose_acc": 0.9333333333333333,
+          "n": 60
+        }
+      }
+    }
+  }
+}

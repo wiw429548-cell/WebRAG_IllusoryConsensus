@@ -1,0 +1,30 @@
+{
+  "_sig": "dbbd7e97df74cb8a3f9011346d3db3a6b22bb542",
+  "metrics": {
+    "ramdocs": {
+      "acc": 0.91,
+      "wrong": 0.298,
+      "em": 0.288,
+      "f1": 0.6572176206146794,
+      "acc_strict": 0.644,
+      "acc_all": 0.308,
+      "n": 500
+    },
+    "_all": {
+      "acc": 0.91,
+      "wrong": 0.298,
+      "em": 0.288,
+      "f1": 0.6572176206146794,
+      "acc_strict": 0.644,
+      "acc_all": 0.308,
+      "n": 500
+    },
+    "_time_sec": 99.55942749977112,
+    "_cost_per_instance": {
+      "calls": 6.532,
+      "prompt_tokens": 2412.923936347197,
+      "completion_tokens": 114.79258661844486
+    },
+    "_dep_sec_per_instance": 0.006263453006744385
+  }
+}

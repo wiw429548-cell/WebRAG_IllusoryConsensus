@@ -1,0 +1,120 @@
+{
+  "full": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "rare",
+      "aigc",
+      "length"
+    ],
+    "n_pairs": 238581
+  },
+  "full+meta": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "rare",
+      "aigc",
+      "length",
+      "meta"
+    ],
+    "n_pairs": 238581
+  },
+  "-lexical": {
+    "groups": [
+      "semantic",
+      "rare",
+      "aigc",
+      "length"
+    ],
+    "n_pairs": 238581
+  },
+  "-semantic": {
+    "groups": [
+      "lexical",
+      "rare",
+      "aigc",
+      "length"
+    ],
+    "n_pairs": 238581
+  },
+  "-rare": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "aigc",
+      "length"
+    ],
+    "n_pairs": 238581
+  },
+  "-aigc": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "rare",
+      "length"
+    ],
+    "n_pairs": 238581
+  },
+  "lexical_only": {
+    "groups": [
+      "lexical"
+    ],
+    "n_pairs": 238581
+  },
+  "full_without_builder2_copies": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "rare",
+      "aigc",
+      "length"
+    ],
+    "n_pairs": 199210
+  },
+  "learning_curve_n25": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "rare",
+      "aigc",
+      "length"
+    ],
+    "n_train_questions": 25,
+    "n_pairs": 20313
+  },
+  "learning_curve_n50": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "rare",
+      "aigc",
+      "length"
+    ],
+    "n_train_questions": 50,
+    "n_pairs": 40222
+  },
+  "learning_curve_n100": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "rare",
+      "aigc",
+      "length"
+    ],
+    "n_train_questions": 100,
+    "n_pairs": 79941
+  },
+  "learning_curve_n200": {
+    "groups": [
+      "lexical",
+      "semantic",
+      "rare",
+      "aigc",
+      "length"
+    ],
+    "n_train_questions": 200,
+    "n_pairs": 157337
+  },
+  "n_train_questions_all": 304
+}

@@ -1,0 +1,30 @@
+\begin{table}[!t]
+\centering
+\caption{\textbf{Controls and stress tests} (Qwen2.5-7B, accuracy \% unless noted).
+\emph{Style}: correct pages also LLM-rewritten ($m{=}8$). \emph{Rank.}: documents in dense-retriever order ($m{=}8$).
+\emph{Noise}: 10 distractor pages ($m{=}4$). \emph{B-agr.}: follows the independent majority when wrong sources are
+independent. \emph{Setting C}: copies of the \emph{true} page vs.\ $w$ independent wrong pages; C-ind.: agreement
+with the independent majority at $m{=}4$, $w{=}2$. Questions per condition: style 183, ranked and noise 200, setting C
+93, 98 and 68. Shaded: ours.}
+\label{tab:controls}
+\setlength{\tabcolsep}{1.6pt}
+\small
+\rowcolors{3}{white}{rowc}
+\begin{tabular}{l rrrr rrr}
+\toprule
+\hdr & \multicolumn{4}{c}{\textbf{Echoed misinformation}} & \multicolumn{3}{c}{\textbf{Setting C (echoed truth)}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-8}
+\hdr \textbf{Method} & Style & Rank. & Noise & B-agr. & {\scriptsize $m4,w1$} & {\scriptsize $m2,w2$} & C-ind. \\
+\midrule
+Vanilla RAG & 47.5 & 56.5 & 57.0 & 55.9 & 87.1 & 78.6 & 10.3 \\
+SemDeDup & 56.3 & -- & 65.5 & 55.9 & -- & -- & -- \\
+Majority vote & 21.9 & 24.0 & 26.0 & \scnd{67.9} & \best{93.5} & \best{85.7} & 5.9 \\
+SemDeDup + vote & 31.1 & 33.5 & 40.5 & \scnd{67.9} & \best{93.5} & 79.6 & 5.9 \\
+Astute RAG & 63.4 & 54.5 & -- & 45.0 & 84.9 & \best{85.7} & 5.9 \\
+CAG (prompted) & 61.2 & -- & -- & 65.1 & \scnd{92.5} & \scnd{84.7} & 10.3 \\
+\ours IndieVote-L & \scnd{74.9} & \scnd{76.5} & \scnd{76.5} & \best{70.5} & \best{93.5} & 44.9 & \best{45.6} \\
+\ours IndieBayes-L & 73.8 & \scnd{76.5} & 75.5 & \best{70.5} & \best{93.5} & 44.9 & \scnd{44.1} \\
+\ours \sys-L & \best{77.0} & \best{79.0} & \best{81.0} & 63.3 & 75.3 & 64.3 & 27.9 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+\begin{table*}[tbp]
+\centering
+\small
+\caption{Key methods across readers (model family and scale; main grid). Clean: $m{=}0$; echo: average over $m\geq1$, $k\in\{1,2,3\}$. Accuracy \%.}
+\label{tab:readers}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Method & Qwen2\_5\_7B\_Instruc clean & echo & Qwen3\_8B clean & echo & granite\_granite\_3\_ clean & echo & Qwen2\_5\_32B\_Instru clean & echo \\
+\midrule
+Vanilla RAG & \textbf{80.7} & 61.0 & \textbf{85.2} & 68.5 & \textbf{85.8} & 67.0 & 88.0 & 72.1 \\
+Majority vote & 75.7 & 35.0 & 78.2 & 40.6 & 77.2 & 43.1 & 80.5 & 51.7 \\
+Astute RAG & 76.5 & 67.4 & 70.2 & 46.3 & 35.5 & 27.1 & \textbf{94.0} & 84.4 \\
+IndieVote-L & 75.8 & 63.6 & 78.0 & 67.1 & 77.2 & \textbf{68.6} & 80.5 & 69.6 \\
+IndieBayes-L & 75.8 & 63.1 & 78.0 & 66.9 & 77.2 & 68.4 & 80.5 & 69.6 \\
+IndieRAG-L & 80.3 & \textbf{78.3} & 84.7 & \textbf{79.5} & 63.2 & 63.0 & 90.7 & \textbf{87.3} \\
+\bottomrule
+\end{tabular}
+\end{table*}

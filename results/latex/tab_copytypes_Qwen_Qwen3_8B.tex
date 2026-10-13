@@ -1,0 +1,26 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{Accuracy (\%) by copy type ($m{=}4$ copies, $k{=}2$; reader Qwen\_Qwen3\_8B).}
+\label{tab:types:Qwen_Qwen3_8B}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & verbatim & backtrans & paraphrase & ai\_farm & summary & mixed \\
+\midrule
+Vanilla RAG & 76.9 & 77.1 & 64.7 & 66.7 & 67.3 & 70.0 \\
+Dedup (5-gram) & \textbf{87.4} & 77.7 & 64.7 & 66.7 & 68.0 & 72.0 \\
+SemDedup (emb.) & 85.9 & \textbf{85.1} & 77.2 & 67.3 & 79.3 & 78.5 \\
+Majority vote & 28.6 & 29.7 & 32.1 & 31.5 & 29.3 & 32.0 \\
+Near-dup + vote & 81.9 & 34.3 & 32.1 & 32.1 & 31.3 & 38.5 \\
+SemDedup + vote & 80.4 & 72.6 & 59.8 & 34.6 & 60.0 & 46.0 \\
+TrustRAG (filter) & 78.4 & 79.4 & 67.9 & 66.7 & 68.7 & 70.5 \\
+ACCU (no copy det.) & 28.6 & 29.7 & 32.1 & 31.5 & 29.3 & 32.0 \\
+IndieVote-H & 81.9 & \textbf{85.1} & 82.6 & 80.9 & 81.3 & \textbf{83.5} \\
+IndieVote-L & 81.9 & \textbf{85.1} & 83.2 & 82.1 & 83.3 & 83.0 \\
+IndieBayes-L & 81.9 & \textbf{85.1} & 82.6 & 82.1 & 83.3 & 82.5 \\
+IndieRAG-L & 82.9 & 82.9 & \textbf{85.3} & \textbf{84.0} & \textbf{84.7} & 78.5 \\
+IndieVote-oracle & 81.9 & 85.1 & 83.2 & 82.7 & 83.3 & 83.5 \\
+\bottomrule
+\end{tabular}
+\end{table}

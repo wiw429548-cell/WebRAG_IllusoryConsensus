@@ -1,0 +1,27 @@
+\begin{table*}[tbp]
+\centering
+\small
+\caption{Robustness: documents in dense-retriever order (ranked, $k{=}2$) and with $d$ irrelevant distractor pages ($m{=}4,k{=}2$); accuracy \% (reader Qwen\_Qwen2\_5\_7B\_Instruct).}
+\label{tab:robust}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & ranked $m{=}0$ & ranked $m{=}2$ & ranked $m{=}8$ & $d{=}0$ & $d{=}6$ & $d{=}10$ \\
+\midrule
+Vanilla RAG & 84.0 & 73.5 & 56.5 & 61.5 & 58.5 & 57.0 \\
+Dedup (5-gram) & -- & -- & -- & 67.5 & 61.0 & 63.0 \\
+SemDedup (emb.) & -- & -- & -- & 66.5 & 64.5 & 65.5 \\
+Majority vote & \textbf{86.5} & 32.0 & 24.0 & 25.5 & 25.0 & 26.0 \\
+Near-dup + vote & \textbf{86.5} & 53.5 & 29.0 & 31.5 & 31.5 & 32.5 \\
+SemDedup + vote & \textbf{86.5} & 57.5 & 33.5 & 40.5 & 40.5 & 40.5 \\
+Astute RAG & 77.0 & 73.0 & 54.5 & -- & -- & -- \\
+TrustRAG (filter) & -- & -- & -- & 71.0 & 58.5 & 57.0 \\
+ACCU (no copy det.) & \textbf{86.5} & 32.0 & 24.0 & 25.5 & 25.0 & 26.0 \\
+IndieVote-H & \textbf{86.5} & 76.5 & 76.0 & 76.0 & 76.0 & 75.5 \\
+IndieVote-L & \textbf{86.5} & 77.0 & 76.5 & 77.0 & 77.0 & 76.5 \\
+IndieBayes-L & \textbf{86.5} & 77.0 & 76.5 & 75.5 & 76.5 & 75.5 \\
+IndieRAG-L & \textbf{86.5} & \textbf{82.5} & \textbf{79.0} & \textbf{78.5} & \textbf{77.5} & \textbf{81.0} \\
+IndieVote-oracle & 86.5 & 77.5 & 77.0 & 77.0 & 77.0 & 76.5 \\
+\bottomrule
+\end{tabular}
+\end{table*}

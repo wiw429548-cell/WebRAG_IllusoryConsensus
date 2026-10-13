@@ -1,0 +1,22 @@
+\begin{table}[!t]
+\centering
+\caption{\textbf{Search agents} (300 questions each, local dense search engine). $m$: copies of a wrong origin
+injected into the index. \#S: searches per question.}
+\label{tab:agents}
+\setlength{\tabcolsep}{2.8pt}
+\small
+\rowcolors{3}{white}{rowc}
+\begin{tabular}{l rrrr rrr}
+\toprule
+\hdr & \multicolumn{4}{c}{\textbf{EchoBench}} & \multicolumn{3}{c}{\textbf{HotpotQA-echo}} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-8}
+\hdr \textbf{Agent} & $m{=}0$ & $m{=}4$ & Wr.$\downarrow$ & \#S & $m{=}0$ & $m{=}4$ & \#S \\
+\midrule
+ReAct (Qwen2.5-7B) & 84.0 & 73.3 & \scnd{16.7} & 0.77 & 40.3 & 25.3 & 1.33 \\
+Search-R1 (RL, 7B) & \best{87.3} & 67.7 & 23.0 & 1.57 & \best{47.0} & \best{32.0} & 2.42 \\
+\ours IndieSearch ($\tau{=}1.5$) & \best{87.3} & \best{77.7} & \best{14.7} & 2.04 & \scnd{41.3} & 26.7 & 3.29 \\
+\ours \quad feedback only ($\tau{=}0$) & \scnd{86.3} & 69.0 & 20.7 & 1.30 & \scnd{41.3} & 24.0 & 2.37 \\
+\ours \quad stricter ($\tau{=}2$) & \scnd{86.3} & \scnd{73.7} & 18.3 & 2.55 & \scnd{41.3} & \scnd{27.0} & 3.34 \\
+\bottomrule
+\end{tabular}
+\end{table}

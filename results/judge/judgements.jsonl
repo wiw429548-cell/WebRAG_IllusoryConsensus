@@ -1,0 +1,1120 @@
+{"ds": "echobench", "method": "vanilla", "iid": "bb_8783|A_mixed_m2_k2", "pred": "Lenny Henry", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_2212|A_mixed_m8_k2", "pred": "Uncharted", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_2412|A_mixed_m8_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_3793|A_mixed_m2_k2", "pred": "Silurian Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_3225|A_mixed_m8_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_7795|A_mixed_m2_k2", "pred": "Bashir", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "dpql_4411|A_mixed_m2_k2", "pred": "Dennis Potter", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_8742|A_mixed_m8_k2", "pred": "Falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_1209|A_mixed_m2_k2", "pred": "Quentin Blake", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_5682|A_mixed_m2_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_1156|A_mixed_m8_k2", "pred": "Stockholm", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_7007|A_mixed_m8_k2", "pred": "Newmarket Racecourse", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_5327|A_mixed_m2_k2", "pred": "Armageddon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_7331|A_mixed_m2_k2", "pred": "Pink", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_1792|A_mixed_m8_k2", "pred": "Hedgehog", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_8074|A_mixed_m2_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_7601|A_mixed_m2_k2", "pred": "Papua New Guinea", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_12328|A_mixed_m8_k2", "pred": "Moscow", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "dpql_5172|A_mixed_m2_k2", "pred": "Tesco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_1064|A_mixed_m8_k2", "pred": "Avatar", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_9858|A_mixed_m2_k2", "pred": "Edward IV", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_6693|A_mixed_m8_k2", "pred": "Morocco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_7983|A_mixed_m2_k2", "pred": "Brains", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_1357|A_mixed_m8_k2", "pred": "Senegal", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_777|A_mixed_m2_k2", "pred": "<6>", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_13425|A_mixed_m2_k2", "pred": "Alaska", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_1374|A_mixed_m8_k2", "pred": "Italy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_5271|A_mixed_m2_k2", "pred": "Los Angeles, Russia", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_8074|A_mixed_m8_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_4761|A_mixed_m8_k2", "pred": "Bridge", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_189|A_mixed_m2_k2", "pred": "Eagle", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "dpql_2881|A_mixed_m8_k2", "pred": "Brassicaceae", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_856|A_mixed_m8_k2", "pred": "Olympia", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "dpql_5846|A_mixed_m2_k2", "pred": "<sky>", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_3232|A_mixed_m2_k2", "pred": "Heptathlon", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_3423|A_mixed_m2_k2", "pred": "King John", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_4302|A_mixed_m2_k2", "pred": "Death penalty Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_9361|A_mixed_m2_k2", "pred": "Tom Hanks", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_1850|A_mixed_m2_k2", "pred": "E. M. Forster", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_6612|A_mixed_m8_k2", "pred": "Atlantic Ocean", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_2861|A_mixed_m2_k2", "pred": "Linus van Pelt", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_7518|A_mixed_m8_k2", "pred": "Boston", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_5682|A_mixed_m8_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_5120|A_mixed_m8_k2", "pred": "Zombieland", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_1626|A_mixed_m8_k2", "pred": "Playboy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_7838|A_mixed_m2_k2", "pred": "Jack Nicholson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_14247|A_mixed_m2_k2", "pred": "1883 Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bt_1418|A_mixed_m2_k2", "pred": "Brighton", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_3225|A_mixed_m2_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_7023|A_mixed_m8_k2", "pred": "The Cure Answer:", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_1898|A_mixed_m2_k2", "pred": "Nasdaq", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_1937|A_mixed_m2_k2", "pred": "Switzerland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_4103|A_mixed_m2_k2", "pred": "Johnny Cash", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_3910|A_mixed_m2_k2", "pred": "Rothschild", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_14578|A_mixed_m2_k2", "pred": "The Foundations", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_11652|A_mixed_m2_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_7608|A_mixed_m2_k2", "pred": "Plato", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_909|A_mixed_m2_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_757|A_mixed_m8_k2", "pred": "Russell T. Davies", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_5535|A_mixed_m8_k2", "pred": "Elton John", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_2221|A_mixed_m8_k2", "pred": "Curzon Pie", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_854|A_mixed_m8_k2", "pred": "Infanta", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_11652|A_mixed_m8_k2", "pred": "Acetic acid", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_2485|A_mixed_m8_k2", "pred": "Dodo", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_8684|A_mixed_m2_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_7187|A_mixed_m8_k2", "pred": "Ireland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_7130|A_mixed_m8_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_4632|A_mixed_m2_k2", "pred": "Art Deco", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "dpql_788|A_mixed_m2_k2", "pred": "James Bolam", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_8277|A_mixed_m8_k2", "pred": "Virgin Atlantic", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_6813|A_mixed_m2_k2", "pred": "Real Madrid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_15063|A_mixed_m8_k2", "pred": "Oxford School", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_6756|A_mixed_m2_k2", "pred": "pharmacy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_3868|A_mixed_m8_k2", "pred": "Taylor Swift", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_5098|A_mixed_m2_k2", "pred": "1790", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_7023|A_mixed_m2_k2", "pred": "The Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_8684|A_mixed_m8_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_89|A_mixed_m2_k2", "pred": "Deepwater Horizon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_4827|A_mixed_m8_k2", "pred": "Snickers", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_447|A_mixed_m8_k2", "pred": "EMI", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_8934|A_mixed_m2_k2", "pred": "The Royal Hunt of the Sun Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_866|A_mixed_m8_k2", "pred": "Bobby and Shirley", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_11824|A_mixed_m8_k2", "pred": "Ypres", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_14728|A_mixed_m2_k2", "pred": "North Carolina", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_5345|A_mixed_m2_k2", "pred": "Karl Marx", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_1605|A_mixed_m2_k2", "pred": "Bosnian", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "dpql_4668|A_mixed_m8_k2", "pred": "Normandie", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "bb_8828|A_mixed_m2_k2", "pred": "Portugal", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_13428|A_mixed_m8_k2", "pred": "Bulgaria", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_9882|A_mixed_m2_k2", "pred": "Marenka", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_525|A_mixed_m8_k2", "pred": "All Quiet on the Western Front", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_7130|A_mixed_m2_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_599|A_mixed_m2_k2", "pred": "6", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_909|A_mixed_m8_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "jp_184|A_mixed_m8_k2", "pred": "George S. Patton", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_8115|A_mixed_m8_k2", "pred": "Northern Line", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_2412|A_mixed_m2_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "qb_2848|A_mixed_m2_k2", "pred": "joy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_8742|A_mixed_m2_k2", "pred": "Falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "vanilla", "iid": "odql_11867|A_mixed_m8_k2", "pred": "Nadia Comaneci", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "bb_8783|A_mixed_m2_k2", "pred": "Eddie Izzard", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_2212|A_mixed_m8_k2", "pred": "Uncharted", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_2412|A_mixed_m8_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_3793|A_mixed_m2_k2", "pred": "Devonian", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_3225|A_mixed_m8_k2", "pred": "Panaramix", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_7795|A_mixed_m2_k2", "pred": "Waltz with Eva", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "dpql_4411|A_mixed_m2_k2", "pred": "Dennis Potter", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_8742|A_mixed_m8_k2", "pred": "Owl", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_1209|A_mixed_m2_k2", "pred": "Beatrix Potter", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_5682|A_mixed_m2_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_1156|A_mixed_m8_k2", "pred": "Stockholm", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_7007|A_mixed_m8_k2", "pred": "Newmarket Racecourse", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_5327|A_mixed_m2_k2", "pred": "Armageddon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_7331|A_mixed_m2_k2", "pred": "red", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_1792|A_mixed_m8_k2", "pred": "hedgehog", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_8074|A_mixed_m2_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_7601|A_mixed_m2_k2", "pred": "Papua New Guinea", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_12328|A_mixed_m8_k2", "pred": "Berlin", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "dpql_5172|A_mixed_m2_k2", "pred": "ASDA", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_1064|A_mixed_m8_k2", "pred": "Avatar", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_9858|A_mixed_m2_k2", "pred": "Edward IV", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_6693|A_mixed_m8_k2", "pred": "Morocco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "bb_7983|A_mixed_m2_k2", "pred": "Brains", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "jp_1357|A_mixed_m8_k2", "pred": "Senegal", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_777|A_mixed_m2_k2", "pred": "Five", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_13425|A_mixed_m2_k2", "pred": "Colorado", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_1374|A_mixed_m8_k2", "pred": "Italy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_5271|A_mixed_m2_k2", "pred": "Los Angeles", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_8074|A_mixed_m8_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_4761|A_mixed_m8_k2", "pred": "poker game", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_189|A_mixed_m2_k2", "pred": "Apollo", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "dpql_2881|A_mixed_m8_k2", "pred": "Brassicaceae", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_856|A_mixed_m8_k2", "pred": "Olympia", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "dpql_5846|A_mixed_m2_k2", "pred": "the sky", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_3232|A_mixed_m2_k2", "pred": "decathlon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "jp_3423|A_mixed_m2_k2", "pred": "King Richard", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_4302|A_mixed_m2_k2", "pred": "California's income tax", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_9361|A_mixed_m2_k2", "pred": "Tom Hanks", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_1850|A_mixed_m2_k2", "pred": "E. M. Forster", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_6612|A_mixed_m8_k2", "pred": "Mediterranean Sea", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_2861|A_mixed_m2_k2", "pred": "Linus", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_7518|A_mixed_m8_k2", "pred": "Boston", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_5682|A_mixed_m8_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_5120|A_mixed_m8_k2", "pred": "Zombieland", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_1626|A_mixed_m8_k2", "pred": "FHM", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_7838|A_mixed_m2_k2", "pred": "Jack Nicholson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_14247|A_mixed_m2_k2", "pred": "1887", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bt_1418|A_mixed_m2_k2", "pred": "Brighton", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_3225|A_mixed_m2_k2", "pred": "Panaramix", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_7023|A_mixed_m8_k2", "pred": "The Cure", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_1898|A_mixed_m2_k2", "pred": "Nasdaq", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "bb_1937|A_mixed_m2_k2", "pred": "Switzerland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "jp_4103|A_mixed_m2_k2", "pred": "Rip Nix", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_3910|A_mixed_m2_k2", "pred": "Rothschild", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_14578|A_mixed_m2_k2", "pred": "The Foundations", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_11652|A_mixed_m2_k2", "pred": "Acetic acid", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_7608|A_mixed_m2_k2", "pred": "Plato", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "jp_909|A_mixed_m2_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_757|A_mixed_m8_k2", "pred": "Sir Russell T Davies", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_5535|A_mixed_m8_k2", "pred": "Lionel Bart", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_2221|A_mixed_m8_k2", "pred": "Curzon Pie", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_854|A_mixed_m8_k2", "pred": "Infanta", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_11652|A_mixed_m8_k2", "pred": "Acetic acid", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_2485|A_mixed_m8_k2", "pred": "Dodo", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_8684|A_mixed_m2_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_7187|A_mixed_m8_k2", "pred": "Ireland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_7130|A_mixed_m8_k2", "pred": "James Callaghan", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_4632|A_mixed_m2_k2", "pred": "Art Nouveau", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "dpql_788|A_mixed_m2_k2", "pred": "James Bolam", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_8277|A_mixed_m8_k2", "pred": "Virgin Atlantic", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_6813|A_mixed_m2_k2", "pred": "Real Madrid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_15063|A_mixed_m8_k2", "pred": "Oxford School", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_6756|A_mixed_m2_k2", "pred": "pharmacy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_3868|A_mixed_m8_k2", "pred": "Taylor Swift", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_5098|A_mixed_m2_k2", "pred": "1800", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_7023|A_mixed_m2_k2", "pred": "The Cure", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_8684|A_mixed_m8_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "bb_89|A_mixed_m2_k2", "pred": "Deepwater Explorer", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_4827|A_mixed_m8_k2", "pred": "Snickers Bar", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_447|A_mixed_m8_k2", "pred": "EMI", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_8934|A_mixed_m2_k2", "pred": "The Royal Hunt of the Moon", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_866|A_mixed_m8_k2", "pred": "Bobby and Shirley", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_11824|A_mixed_m8_k2", "pred": "Ypres", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_14728|A_mixed_m2_k2", "pred": "North Carolina", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_5345|A_mixed_m2_k2", "pred": "Karl Marx", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "odql_1605|A_mixed_m2_k2", "pred": "Albanian", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "dpql_4668|A_mixed_m8_k2", "pred": "Normandie", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "bb_8828|A_mixed_m2_k2", "pred": "Spain", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_13428|A_mixed_m8_k2", "pred": "Bulgaria", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_9882|A_mixed_m2_k2", "pred": "Prodana Nevesta", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_525|A_mixed_m8_k2", "pred": "All Quiet on the Western Front", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_7130|A_mixed_m2_k2", "pred": "James Callaghan", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_599|A_mixed_m2_k2", "pred": "6", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_909|A_mixed_m8_k2", "pred": "Bolivia", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "jp_184|A_mixed_m8_k2", "pred": "General George S. Patton", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "qb_8115|A_mixed_m8_k2", "pred": "Northern Line", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_2412|A_mixed_m2_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "majority", "iid": "qb_2848|A_mixed_m2_k2", "pred": "joy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_8742|A_mixed_m2_k2", "pred": "Owl", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "majority", "iid": "odql_11867|A_mixed_m8_k2", "pred": "Simone Bartolomeo", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_8783|A_mixed_m2_k2", "pred": "Lenny Henry", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_2212|A_mixed_m8_k2", "pred": "Tomb Raider", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_2412|A_mixed_m8_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_3793|A_mixed_m2_k2", "pred": "Silurian Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_3225|A_mixed_m8_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_7795|A_mixed_m2_k2", "pred": "Bashir", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "dpql_4411|A_mixed_m2_k2", "pred": "Dennis Potter", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_8742|A_mixed_m8_k2", "pred": "Falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_1209|A_mixed_m2_k2", "pred": "Quentin Blake", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_5682|A_mixed_m2_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_1156|A_mixed_m8_k2", "pred": "Stockholm", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_7007|A_mixed_m8_k2", "pred": "Newmarket Racecourse", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_5327|A_mixed_m2_k2", "pred": "Armageddon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_7331|A_mixed_m2_k2", "pred": "Pink", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_1792|A_mixed_m8_k2", "pred": "Hedgehog", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_8074|A_mixed_m2_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_7601|A_mixed_m2_k2", "pred": "Papua New Guinea", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_12328|A_mixed_m8_k2", "pred": "Berlin", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "dpql_5172|A_mixed_m2_k2", "pred": "Tesco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_1064|A_mixed_m8_k2", "pred": "<Avatar>", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_9858|A_mixed_m2_k2", "pred": "Edward IV", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_6693|A_mixed_m8_k2", "pred": "Morocco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_7983|A_mixed_m2_k2", "pred": "Brains", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_1357|A_mixed_m8_k2", "pred": "Senegal", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_777|A_mixed_m2_k2", "pred": "Six Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_13425|A_mixed_m2_k2", "pred": "Colorado", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_1374|A_mixed_m8_k2", "pred": "Italy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_5271|A_mixed_m2_k2", "pred": "Los Angeles, Russia", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_8074|A_mixed_m8_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_4761|A_mixed_m8_k2", "pred": "bridge", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_189|A_mixed_m2_k2", "pred": "Eagle", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "dpql_2881|A_mixed_m8_k2", "pred": "Brassicaceae", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_856|A_mixed_m8_k2", "pred": "Olympia", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "dpql_5846|A_mixed_m2_k2", "pred": "the earth Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_3232|A_mixed_m2_k2", "pred": "Heptathlon", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_3423|A_mixed_m2_k2", "pred": "King John", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_4302|A_mixed_m2_k2", "pred": "Death penalty Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_9361|A_mixed_m2_k2", "pred": "Tom Hanks", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_1850|A_mixed_m2_k2", "pred": "E. M. Forster", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_6612|A_mixed_m8_k2", "pred": "Atlantic Ocean", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_2861|A_mixed_m2_k2", "pred": "Linus van Pelt", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_7518|A_mixed_m8_k2", "pred": "Boston", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_5682|A_mixed_m8_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_5120|A_mixed_m8_k2", "pred": "Zombieland", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_1626|A_mixed_m8_k2", "pred": "Playboy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_7838|A_mixed_m2_k2", "pred": "Jack Nicholson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_14247|A_mixed_m2_k2", "pred": "1883 Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bt_1418|A_mixed_m2_k2", "pred": "Brighton", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_3225|A_mixed_m2_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_7023|A_mixed_m8_k2", "pred": "The Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_1898|A_mixed_m2_k2", "pred": "Nasdaq", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_1937|A_mixed_m2_k2", "pred": "Switzerland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_4103|A_mixed_m2_k2", "pred": "Johnny Cash", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_3910|A_mixed_m2_k2", "pred": "Rothschild", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_14578|A_mixed_m2_k2", "pred": "The Foundations", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_11652|A_mixed_m2_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_7608|A_mixed_m2_k2", "pred": "Plato Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_909|A_mixed_m2_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_757|A_mixed_m8_k2", "pred": "Russell T. Davies", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_5535|A_mixed_m8_k2", "pred": "Lionel Bart", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_2221|A_mixed_m8_k2", "pred": "Woolton Pie", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_854|A_mixed_m8_k2", "pred": "Infanta", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_11652|A_mixed_m8_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_2485|A_mixed_m8_k2", "pred": "dodo", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_8684|A_mixed_m2_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_7187|A_mixed_m8_k2", "pred": "Ireland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_7130|A_mixed_m8_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_4632|A_mixed_m2_k2", "pred": "Art Deco", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "dpql_788|A_mixed_m2_k2", "pred": "James Bolam", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_8277|A_mixed_m8_k2", "pred": "Virgin Atlantic", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_6813|A_mixed_m2_k2", "pred": "Real Madrid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_15063|A_mixed_m8_k2", "pred": "Rugby School", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_6756|A_mixed_m2_k2", "pred": "pharmacy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_3868|A_mixed_m8_k2", "pred": "Katy Perry", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_5098|A_mixed_m2_k2", "pred": "1790", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_7023|A_mixed_m2_k2", "pred": "Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_8684|A_mixed_m8_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_89|A_mixed_m2_k2", "pred": "Deepwater Horizon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_4827|A_mixed_m8_k2", "pred": "Snickers", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_447|A_mixed_m8_k2", "pred": "EMI", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_8934|A_mixed_m2_k2", "pred": "The Royal Hunt of the Sun Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_866|A_mixed_m8_k2", "pred": "Caesar and Cleo", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_11824|A_mixed_m8_k2", "pred": "Ypres", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_14728|A_mixed_m2_k2", "pred": "North Carolina", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_5345|A_mixed_m2_k2", "pred": "Karl Marx", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_1605|A_mixed_m2_k2", "pred": "Bosnian", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "dpql_4668|A_mixed_m8_k2", "pred": "Normandie", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "bb_8828|A_mixed_m2_k2", "pred": "Portugal", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_13428|A_mixed_m8_k2", "pred": "Bulgaria", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_9882|A_mixed_m2_k2", "pred": "Marenka", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_525|A_mixed_m8_k2", "pred": "All Quiet on the Western Front", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_7130|A_mixed_m2_k2", "pred": "<Margaret Thatcher>", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_599|A_mixed_m2_k2", "pred": "6", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_909|A_mixed_m8_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "jp_184|A_mixed_m8_k2", "pred": "George S. Patton", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_8115|A_mixed_m8_k2", "pred": "Northern Line", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_2412|A_mixed_m2_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "qb_2848|A_mixed_m2_k2", "pred": "woe", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_8742|A_mixed_m2_k2", "pred": "Falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "semdedup", "iid": "odql_11867|A_mixed_m8_k2", "pred": "Nadia Comaneci", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_8783|A_mixed_m2_k2", "pred": "Eddie Izzard", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "jp_2212|A_mixed_m8_k2", "pred": "The video game series that features an archaeologist named Lara Croft is \"Uncharted\" by Naughty Dog. However, it is important to note that there is also a separate series called \"Tomb Raider\" which also features an archaeologist named Lara Croft. The information provided in the external documents is inconsistent regarding which series Lara Croft belongs to, but based on the majority of the documents, she is associated with the \"Uncharted\" series.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_2412|A_mixed_m8_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_3793|A_mixed_m2_k2", "pred": "Silurian period", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_3225|A_mixed_m8_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_7795|A_mixed_m2_k2", "pred": "Bashir", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "dpql_4411|A_mixed_m2_k2", "pred": "Let's group the passages into consistent clusters and identify conflicts:", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_8742|A_mixed_m8_k2", "pred": "Horus is primarily represented as a hawk in ancient Egyptian mythology.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "qb_1209|A_mixed_m2_k2", "pred": "Quentin Blake", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_5682|A_mixed_m2_k2", "pred": "Sir Anthony Caro", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_1156|A_mixed_m8_k2", "pred": "Tivoli Gardens is in Copenhagen, Denmark.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_7007|A_mixed_m8_k2", "pred": "Newmarket Racecourse", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_5327|A_mixed_m2_k2", "pred": "Armageddon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_7331|A_mixed_m2_k2", "pred": "Pink", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_1792|A_mixed_m8_k2", "pred": "Herisson is the heraldic name of the hedgehog.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_8074|A_mixed_m2_k2", "pred": "Malawi changed its capital city from Zomba to Lilongwe in January 1975.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_7601|A_mixed_m2_k2", "pred": "Papua New Guinea", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_12328|A_mixed_m8_k2", "pred": "There is no European city served by Domodedovo Airport.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "dpql_5172|A_mixed_m2_k2", "pred": "Tesco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_1064|A_mixed_m8_k2", "pred": "Avatar", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_9858|A_mixed_m2_k2", "pred": "Edward IV", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "bb_6693|A_mixed_m8_k2", "pred": "Morocco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_7983|A_mixed_m2_k2", "pred": "Brick", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "jp_1357|A_mixed_m8_k2", "pred": "Senegal, Benin, Haiti, and the United States", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "bb_777|A_mixed_m2_k2", "pred": "Six", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_13425|A_mixed_m2_k2", "pred": "Alaska", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_1374|A_mixed_m8_k2", "pred": "Italy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_5271|A_mixed_m2_k2", "pred": "Moscow", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_8074|A_mixed_m8_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_4761|A_mixed_m8_k2", "pred": "Baccarat", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "jp_189|A_mixed_m2_k2", "pred": "Eagle", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "dpql_2881|A_mixed_m8_k2", "pred": "Oil seed rape belongs to the Brassicaceae family.", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_856|A_mixed_m8_k2", "pred": "Olympia", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "dpql_5846|A_mixed_m2_k2", "pred": "The earth", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_3232|A_mixed_m2_k2", "pred": "He won a gold medal in the women's heptathlon at the 1976 Olympics in Montreal, Canada.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "jp_3423|A_mixed_m2_k2", "pred": "King John", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_4302|A_mixed_m2_k2", "pred": "The death penalty.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_9361|A_mixed_m2_k2", "pred": "Based on the assessment, the most reliable answer comes from Cluster 1, which is supported by multiple sources.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "qb_1850|A_mixed_m2_k2", "pred": "F. Scott Fitzgerald", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_6612|A_mixed_m8_k2", "pred": "The Canary Islands are located in the Atlantic Ocean.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_2861|A_mixed_m2_k2", "pred": "Linus", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "bb_7518|A_mixed_m8_k2", "pred": "Montpelier", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_5682|A_mixed_m8_k2", "pred": "Sir Anthony Caro", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_5120|A_mixed_m8_k2", "pred": "Zombieland (2004)", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "jp_1626|A_mixed_m8_k2", "pred": "Playboy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_7838|A_mixed_m2_k2", "pred": "Jack Nicholson**", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_14247|A_mixed_m2_k2", "pred": "1883", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bt_1418|A_mixed_m2_k2", "pred": "Let's group the passages into consistent clusters and identify conflicts:", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_3225|A_mixed_m2_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_7023|A_mixed_m8_k2", "pred": "Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_1898|A_mixed_m2_k2", "pred": "NASDAQ", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_1937|A_mixed_m2_k2", "pred": "Switzerland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_4103|A_mixed_m2_k2", "pred": "June Carter married Johnny Cash.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_3910|A_mixed_m2_k2", "pred": "The Rothschild family.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_14578|A_mixed_m2_k2", "pred": "'Baby Come Back' was a number one hit in 1968 for The Foundations, founded by Eddy Grant.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_11652|A_mixed_m2_k2", "pred": "Acetic acid, histamine, acetylcholine, and serotonin are primarily responsible for the stinging sensation in stinging nettles, with formic acid being present in small amounts.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "bb_7608|A_mixed_m2_k2", "pred": "Plato", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_909|A_mixed_m2_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_757|A_mixed_m8_k2", "pred": "Russell T. Davies", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_5535|A_mixed_m8_k2", "pred": "Let's group the passages into consistent clusters and identify conflicts:", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_2221|A_mixed_m8_k2", "pred": "Lord Woolton Pie", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_854|A_mixed_m8_k2", "pred": "Infanta", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_11652|A_mixed_m8_k2", "pred": "Formic acid is found in stinging nettles, according to my internal memory. However, based on the external documents, acetic acid is mentioned but is now believed to be present in insufficient quantities to explain the prolonged pain. The primary acids or irritants now considered responsible are histamine, acetylcholine, and serotonin, with serotonin playing a significant role.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_2485|A_mixed_m8_k2", "pred": "Mauritius Kestrel", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "qb_8684|A_mixed_m2_k2", "pred": "** Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_7187|A_mixed_m8_k2", "pred": "Ireland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_7130|A_mixed_m8_k2", "pred": "Let's group the passages into consistent clusters and identify conflicts:", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_4632|A_mixed_m2_k2", "pred": "Arts and Crafts movement", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "dpql_788|A_mixed_m2_k2", "pred": "James Bolam", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_8277|A_mixed_m8_k2", "pred": "Virgin Atlantic", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_6813|A_mixed_m2_k2", "pred": "Real Madrid Football Club", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_15063|A_mixed_m8_k2", "pred": "Oxford School", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "qb_6756|A_mixed_m2_k2", "pred": "The medical profession", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_3868|A_mixed_m8_k2", "pred": "Taylor Swift", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "qb_5098|A_mixed_m2_k2", "pred": "Let's group the passages and identify conflicts:", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_7023|A_mixed_m2_k2", "pred": "Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_8684|A_mixed_m8_k2", "pred": "** Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_89|A_mixed_m2_k2", "pred": "Deepwater Horizon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_4827|A_mixed_m8_k2", "pred": "Hershey's bar", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_447|A_mixed_m8_k2", "pred": "EMI (Electric Music Industries)", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "qb_8934|A_mixed_m2_k2", "pred": "The Royal Hunt of the Sun", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_866|A_mixed_m8_k2", "pred": "Bobby and Shirley (originally Bobby and Shirley Brown)", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "odql_11824|A_mixed_m8_k2", "pred": "Ypres", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_14728|A_mixed_m2_k2", "pred": "North Carolina", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_5345|A_mixed_m2_k2", "pred": "Karl Marx wrote 'Das Kapital.'", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_1605|A_mixed_m2_k2", "pred": "Bosnian", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "dpql_4668|A_mixed_m8_k2", "pred": "The areas of England under Viking control were known as the Danelaw.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "bb_8828|A_mixed_m2_k2", "pred": "Portugal", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_13428|A_mixed_m8_k2", "pred": "Romania", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_9882|A_mixed_m2_k2", "pred": "**", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_525|A_mixed_m8_k2", "pred": "All Quiet on the Western Front", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_7130|A_mixed_m2_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_599|A_mixed_m2_k2", "pred": "6", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "astute", "iid": "jp_909|A_mixed_m8_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "jp_184|A_mixed_m8_k2", "pred": "General Douglas MacArthur landed at Inchon.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_8115|A_mixed_m8_k2", "pred": "Central Line", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_2412|A_mixed_m2_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "qb_2848|A_mixed_m2_k2", "pred": "woe", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_8742|A_mixed_m2_k2", "pred": "Horus is represented as a hawk-headed bird.", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "astute", "iid": "odql_11867|A_mixed_m8_k2", "pred": "Nadia Comăneci", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_8783|A_mixed_m2_k2", "pred": "Lenny Henry", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_2212|A_mixed_m8_k2", "pred": "Uncharted", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_2412|A_mixed_m8_k2", "pred": "New York City.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_3793|A_mixed_m2_k2", "pred": "Silurian", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_3225|A_mixed_m8_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_7795|A_mixed_m2_k2", "pred": "Bashir", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "dpql_4411|A_mixed_m2_k2", "pred": "Dennis Potter", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_8742|A_mixed_m8_k2", "pred": "Both Falcon and Owl", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "qb_1209|A_mixed_m2_k2", "pred": "Quentin Blake", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_5682|A_mixed_m2_k2", "pred": "Penny Sherwood", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_1156|A_mixed_m8_k2", "pred": "Stockholm", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_7007|A_mixed_m8_k2", "pred": "Newmarket Racecourse", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_5327|A_mixed_m2_k2", "pred": "Armageddon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_7331|A_mixed_m2_k2", "pred": "Red.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_1792|A_mixed_m8_k2", "pred": "Porcupine", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "qb_8074|A_mixed_m2_k2", "pred": "None", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_7601|A_mixed_m2_k2", "pred": "Papua New Guinea", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_12328|A_mixed_m8_k2", "pred": "Berlin", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "dpql_5172|A_mixed_m2_k2", "pred": "ASDA", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "bb_1064|A_mixed_m8_k2", "pred": "Avatar", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_9858|A_mixed_m2_k2", "pred": "Edward IV", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "bb_6693|A_mixed_m8_k2", "pred": "Morocco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_7983|A_mixed_m2_k2", "pred": "Brains", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_1357|A_mixed_m8_k2", "pred": "Benin", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "bb_777|A_mixed_m2_k2", "pred": "6", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_13425|A_mixed_m2_k2", "pred": "Alaska", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_1374|A_mixed_m8_k2", "pred": "Italy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_5271|A_mixed_m2_k2", "pred": "Los Angeles", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "qb_8074|A_mixed_m8_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_4761|A_mixed_m8_k2", "pred": "Bridge", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_189|A_mixed_m2_k2", "pred": "Eagle", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "dpql_2881|A_mixed_m8_k2", "pred": "Brassicaceae", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "jp_856|A_mixed_m8_k2", "pred": "Olympia", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "dpql_5846|A_mixed_m2_k2", "pred": "The Earth.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_3232|A_mixed_m2_k2", "pred": "Women's heptathlon", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "jp_3423|A_mixed_m2_k2", "pred": "King John", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_4302|A_mixed_m2_k2", "pred": "The death penalty.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_9361|A_mixed_m2_k2", "pred": "Dick Van Dyke", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_1850|A_mixed_m2_k2", "pred": "E. M. Forster", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "bb_6612|A_mixed_m8_k2", "pred": "Atlantic Ocean.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_2861|A_mixed_m2_k2", "pred": "Linus", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "bb_7518|A_mixed_m8_k2", "pred": "Montpelier", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_5682|A_mixed_m8_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_5120|A_mixed_m8_k2", "pred": "Zombieland", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "jp_1626|A_mixed_m8_k2", "pred": "Playboy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_7838|A_mixed_m2_k2", "pred": "Jack Nicholson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_14247|A_mixed_m2_k2", "pred": "1883", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bt_1418|A_mixed_m2_k2", "pred": "Brighton", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_3225|A_mixed_m2_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_7023|A_mixed_m8_k2", "pred": "Arctic Monkeys.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_1898|A_mixed_m2_k2", "pred": "NASDAQ", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_1937|A_mixed_m2_k2", "pred": "Switzerland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_4103|A_mixed_m2_k2", "pred": "Bob Dylan", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "jp_3910|A_mixed_m2_k2", "pred": "The Rothschild family.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_14578|A_mixed_m2_k2", "pred": "The Equals", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_11652|A_mixed_m2_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_7608|A_mixed_m2_k2", "pred": "Plato", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_909|A_mixed_m2_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_757|A_mixed_m8_k2", "pred": "Sir Russell T Davies OBE", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_5535|A_mixed_m8_k2", "pred": "Elton John", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_2221|A_mixed_m8_k2", "pred": "Curzon Pie", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "bb_854|A_mixed_m8_k2", "pred": "Infanta", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_11652|A_mixed_m8_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_2485|A_mixed_m8_k2", "pred": "Pigeon", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "qb_8684|A_mixed_m2_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_7187|A_mixed_m8_k2", "pred": "Ireland.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_7130|A_mixed_m8_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_4632|A_mixed_m2_k2", "pred": "Based on the aggregated answers from the agents, there is a clear split between the Arts and Crafts movement and the Art Nouveau movement. Agents 1, 2, and 6 support the Arts and Crafts movement, while Agents 3, 4, and 7 support the Art Nouveau movement. Agent 5 provides a different perspective, suggesting Modernism.", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "dpql_788|A_mixed_m2_k2", "pred": "James Bolam", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_8277|A_mixed_m8_k2", "pred": "Virgin Atlantic", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_6813|A_mixed_m2_k2", "pred": "Real Madrid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_15063|A_mixed_m8_k2", "pred": "Oxford School", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "qb_6756|A_mixed_m2_k2", "pred": "Medical profession.", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_3868|A_mixed_m8_k2", "pred": "Taylor Swift", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "qb_5098|A_mixed_m2_k2", "pred": "1790", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_7023|A_mixed_m2_k2", "pred": "Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_8684|A_mixed_m8_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_89|A_mixed_m2_k2", "pred": "Deepwater Horizon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_4827|A_mixed_m8_k2", "pred": "Snickers.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_447|A_mixed_m8_k2", "pred": "EMI", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "qb_8934|A_mixed_m2_k2", "pred": "The Royal Hunt of the Sun", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_866|A_mixed_m8_k2", "pred": "Sonny & Cher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_11824|A_mixed_m8_k2", "pred": "Ypres", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_14728|A_mixed_m2_k2", "pred": "North Carolina", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_5345|A_mixed_m2_k2", "pred": "Karl Marx", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_1605|A_mixed_m2_k2", "pred": "Albanian", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "dpql_4668|A_mixed_m8_k2", "pred": "Danelaw", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "bb_8828|A_mixed_m2_k2", "pred": "Portugal", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_13428|A_mixed_m8_k2", "pred": "Romania.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_9882|A_mixed_m2_k2", "pred": "Oženena nevěsta", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_525|A_mixed_m8_k2", "pred": "To the Light", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "qb_7130|A_mixed_m2_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_599|A_mixed_m2_k2", "pred": "6", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "jp_909|A_mixed_m8_k2", "pred": "Peru.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "jp_184|A_mixed_m8_k2", "pred": "General Douglas MacArthur", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_8115|A_mixed_m8_k2", "pred": "Northern Line", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_2412|A_mixed_m2_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "qb_2848|A_mixed_m2_k2", "pred": "Joy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "madam", "iid": "odql_8742|A_mixed_m2_k2", "pred": "Falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "madam", "iid": "odql_11867|A_mixed_m8_k2", "pred": "Simone Bartolomeo", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_8783|A_mixed_m2_k2", "pred": "Lenny Henry", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_2212|A_mixed_m8_k2", "pred": "Tomb Raider", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_2412|A_mixed_m8_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_3793|A_mixed_m2_k2", "pred": "Silurian", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_3225|A_mixed_m8_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_7795|A_mixed_m2_k2", "pred": "Bashir", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "dpql_4411|A_mixed_m2_k2", "pred": "Dennis Potter", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_8742|A_mixed_m8_k2", "pred": "Falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_1209|A_mixed_m2_k2", "pred": "Beatrix Potter", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_5682|A_mixed_m2_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_1156|A_mixed_m8_k2", "pred": "Copenhagen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_7007|A_mixed_m8_k2", "pred": "Newmarket Racecourse", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_5327|A_mixed_m2_k2", "pred": "Armageddon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_7331|A_mixed_m2_k2", "pred": "red", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_1792|A_mixed_m8_k2", "pred": "hedgehog", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_8074|A_mixed_m2_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_7601|A_mixed_m2_k2", "pred": "Papua New Guinea", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_12328|A_mixed_m8_k2", "pred": "Berlin", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "dpql_5172|A_mixed_m2_k2", "pred": "Tesco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_1064|A_mixed_m8_k2", "pred": "Avatar", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_9858|A_mixed_m2_k2", "pred": "Edward IV", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_6693|A_mixed_m8_k2", "pred": "Morocco", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_7983|A_mixed_m2_k2", "pred": "Brains", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_1357|A_mixed_m8_k2", "pred": "Benin", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_777|A_mixed_m2_k2", "pred": "Five", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_13425|A_mixed_m2_k2", "pred": "Alaska", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_1374|A_mixed_m8_k2", "pred": "Italy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_5271|A_mixed_m2_k2", "pred": "Moscow", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_8074|A_mixed_m8_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_4761|A_mixed_m8_k2", "pred": "poker game", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_189|A_mixed_m2_k2", "pred": "Eagle", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "dpql_2881|A_mixed_m8_k2", "pred": "mustard family", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_856|A_mixed_m8_k2", "pred": "Olympia", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "dpql_5846|A_mixed_m2_k2", "pred": "Earth", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_3232|A_mixed_m2_k2", "pred": "decathlon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_3423|A_mixed_m2_k2", "pred": "King John", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_4302|A_mixed_m2_k2", "pred": "California's income tax", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_9361|A_mixed_m2_k2", "pred": "Dick Van Dyke", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_1850|A_mixed_m2_k2", "pred": "E. M. Forster", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_6612|A_mixed_m8_k2", "pred": "Atlantic Ocean", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_2861|A_mixed_m2_k2", "pred": "Linus", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_7518|A_mixed_m8_k2", "pred": "Montpelier", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_5682|A_mixed_m8_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_5120|A_mixed_m8_k2", "pred": "Shaun of the Dead", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_1626|A_mixed_m8_k2", "pred": "Playboy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_7838|A_mixed_m2_k2", "pred": "Jack Nicholson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_14247|A_mixed_m2_k2", "pred": "1883", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bt_1418|A_mixed_m2_k2", "pred": "Brighton", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_3225|A_mixed_m2_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_7023|A_mixed_m8_k2", "pred": "Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_1898|A_mixed_m2_k2", "pred": "Nasdaq", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_1937|A_mixed_m2_k2", "pred": "Switzerland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_4103|A_mixed_m2_k2", "pred": "Johnny Cash", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_3910|A_mixed_m2_k2", "pred": "Rothschild", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_14578|A_mixed_m2_k2", "pred": "The Equals", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_11652|A_mixed_m2_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_7608|A_mixed_m2_k2", "pred": "Plato", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_909|A_mixed_m2_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_757|A_mixed_m8_k2", "pred": "Sir Russell T Davies", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_5535|A_mixed_m8_k2", "pred": "Lionel Bart", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_2221|A_mixed_m8_k2", "pred": "Woolton Pie", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_854|A_mixed_m8_k2", "pred": "Infanta", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_11652|A_mixed_m8_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_2485|A_mixed_m8_k2", "pred": "Dodo", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_8684|A_mixed_m2_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_7187|A_mixed_m8_k2", "pred": "Ireland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_7130|A_mixed_m8_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_4632|A_mixed_m2_k2", "pred": "Art Nouveau", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "dpql_788|A_mixed_m2_k2", "pred": "James Bolam", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_8277|A_mixed_m8_k2", "pred": "British Airways", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_6813|A_mixed_m2_k2", "pred": "Real Madrid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_15063|A_mixed_m8_k2", "pred": "Rugby School", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_6756|A_mixed_m2_k2", "pred": "pharmacy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_3868|A_mixed_m8_k2", "pred": "Katy Perry", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_5098|A_mixed_m2_k2", "pred": "1790", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_7023|A_mixed_m2_k2", "pred": "Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_8684|A_mixed_m8_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_89|A_mixed_m2_k2", "pred": "Deepwater Horizon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_4827|A_mixed_m8_k2", "pred": "Snickers Bar", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_447|A_mixed_m8_k2", "pred": "EMI", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_8934|A_mixed_m2_k2", "pred": "The Royal Hunt of the Moon", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_866|A_mixed_m8_k2", "pred": "Bobby and Shirley", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_11824|A_mixed_m8_k2", "pred": "Ypres", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_14728|A_mixed_m2_k2", "pred": "North Carolina", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_5345|A_mixed_m2_k2", "pred": "Karl Marx", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_1605|A_mixed_m2_k2", "pred": "Albanian", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "dpql_4668|A_mixed_m8_k2", "pred": "Danelaw", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "bb_8828|A_mixed_m2_k2", "pred": "Portugal", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_13428|A_mixed_m8_k2", "pred": "Romania", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_9882|A_mixed_m2_k2", "pred": "Prodana Nevesta", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_525|A_mixed_m8_k2", "pred": "All Quiet on the Western Front", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_7130|A_mixed_m2_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_599|A_mixed_m2_k2", "pred": "6", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_909|A_mixed_m8_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "jp_184|A_mixed_m8_k2", "pred": "General George S. Patton", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_8115|A_mixed_m8_k2", "pred": "Northern Line", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_2412|A_mixed_m2_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "qb_2848|A_mixed_m2_k2", "pred": "joy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_8742|A_mixed_m2_k2", "pred": "falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indievote:L", "iid": "odql_11867|A_mixed_m8_k2", "pred": "Nadia Comaneci", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_8783|A_mixed_m2_k2", "pred": "Lenny Henry", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_2212|A_mixed_m8_k2", "pred": "Tomb Raider", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_2412|A_mixed_m8_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_3793|A_mixed_m2_k2", "pred": "Silurian", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_3225|A_mixed_m8_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_7795|A_mixed_m2_k2", "pred": "Bashir", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "dpql_4411|A_mixed_m2_k2", "pred": "Dennis Potter", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_8742|A_mixed_m8_k2", "pred": "Falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_1209|A_mixed_m2_k2", "pred": "Quentin Blake", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_5682|A_mixed_m2_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_1156|A_mixed_m8_k2", "pred": "Copenhagen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_7007|A_mixed_m8_k2", "pred": "Newmarket Racecourse and Chester Racecourse", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_5327|A_mixed_m2_k2", "pred": "Armageddon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_7331|A_mixed_m2_k2", "pred": "Pink", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_1792|A_mixed_m8_k2", "pred": "Hedgehog", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_8074|A_mixed_m2_k2", "pred": "Malawi", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_7601|A_mixed_m2_k2", "pred": "Papua New Guinea", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_12328|A_mixed_m8_k2", "pred": "Berlin", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "dpql_5172|A_mixed_m2_k2", "pred": "ASDA", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_1064|A_mixed_m8_k2", "pred": "Avatar", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_9858|A_mixed_m2_k2", "pred": "Edward IV", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_6693|A_mixed_m8_k2", "pred": "Not enough information provided in the given evidence to answer the question.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_7983|A_mixed_m2_k2", "pred": "Brains", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_1357|A_mixed_m8_k2", "pred": "Benin and Haiti", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_777|A_mixed_m2_k2", "pred": "Six", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_13425|A_mixed_m2_k2", "pred": "Alaska", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_1374|A_mixed_m8_k2", "pred": "Italy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_5271|A_mixed_m2_k2", "pred": "Los Angeles", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_8074|A_mixed_m8_k2", "pred": "The evidence does not support the claim that the capital city was changed from Zomba to Lilongwe in January 1975.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_4761|A_mixed_m8_k2", "pred": "Bridge", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_189|A_mixed_m2_k2", "pred": "Apollo", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "dpql_2881|A_mixed_m8_k2", "pred": "Brassicaceae", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_856|A_mixed_m8_k2", "pred": "Olympia", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "dpql_5846|A_mixed_m2_k2", "pred": "The earth.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_3232|A_mixed_m2_k2", "pred": "Decathlon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_3423|A_mixed_m2_k2", "pred": "King John", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_4302|A_mixed_m2_k2", "pred": "The death penalty.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_9361|A_mixed_m2_k2", "pred": "Tom Hanks", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_1850|A_mixed_m2_k2", "pred": "E. M. Forster", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_6612|A_mixed_m8_k2", "pred": "The Canary Islands are in the Atlantic Ocean.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_2861|A_mixed_m2_k2", "pred": "Linus van Pelt", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_7518|A_mixed_m8_k2", "pred": "Montpelier", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_5682|A_mixed_m8_k2", "pred": "David Hockney", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_5120|A_mixed_m8_k2", "pred": "Shaun of the Dead", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_1626|A_mixed_m8_k2", "pred": "Playboy", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_7838|A_mixed_m2_k2", "pred": "Jack Nicholson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_14247|A_mixed_m2_k2", "pred": "1883", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bt_1418|A_mixed_m2_k2", "pred": "Brighton", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_3225|A_mixed_m2_k2", "pred": "Getafix", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_7023|A_mixed_m8_k2", "pred": "Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_1898|A_mixed_m2_k2", "pred": "Nasdaq", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_1937|A_mixed_m2_k2", "pred": "Switzerland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_4103|A_mixed_m2_k2", "pred": "June Carter was married to Carl Smith, Edwin \"Rip\" Nix, and Johnny Cash.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_3910|A_mixed_m2_k2", "pred": "The Rothschild family.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_14578|A_mixed_m2_k2", "pred": "The Foundations", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_11652|A_mixed_m2_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_7608|A_mixed_m2_k2", "pred": "Plato", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_909|A_mixed_m2_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_757|A_mixed_m8_k2", "pred": "Russell T. Davies", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_5535|A_mixed_m8_k2", "pred": "Lionel Bart", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_2221|A_mixed_m8_k2", "pred": "Woolton Pie", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_854|A_mixed_m8_k2", "pred": "Infanta", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_11652|A_mixed_m8_k2", "pred": "Formic acid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_2485|A_mixed_m8_k2", "pred": "The answer is not provided in the given evidence.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_8684|A_mixed_m2_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_7187|A_mixed_m8_k2", "pred": "Ireland", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_7130|A_mixed_m8_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_4632|A_mixed_m2_k2", "pred": "Charles Rennie Mackintosh was a leading exponent of Art Nouveau and Modernism around the 1900s.", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "dpql_788|A_mixed_m2_k2", "pred": "James Bolam", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_8277|A_mixed_m8_k2", "pred": "British Airways", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_6813|A_mixed_m2_k2", "pred": "Real Madrid", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_15063|A_mixed_m8_k2", "pred": "Rugby School", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_6756|A_mixed_m2_k2", "pred": "Pharmacy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_3868|A_mixed_m8_k2", "pred": "Katy Perry", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_5098|A_mixed_m2_k2", "pred": "1790", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_7023|A_mixed_m2_k2", "pred": "Arctic Monkeys", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_8684|A_mixed_m8_k2", "pred": "Hydrogen", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_89|A_mixed_m2_k2", "pred": "Deepwater Horizon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_4827|A_mixed_m8_k2", "pred": "The question cannot be answered based on the given evidence.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_447|A_mixed_m8_k2", "pred": "EMI", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_8934|A_mixed_m2_k2", "pred": "The Royal Hunt of the Sun", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_866|A_mixed_m8_k2", "pred": "Sonny & Cher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_11824|A_mixed_m8_k2", "pred": "Ypres", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_14728|A_mixed_m2_k2", "pred": "North Carolina", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_5345|A_mixed_m2_k2", "pred": "Karl Marx", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_1605|A_mixed_m2_k2", "pred": "Bosnian", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "dpql_4668|A_mixed_m8_k2", "pred": "Danelaw", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "bb_8828|A_mixed_m2_k2", "pred": "Portugal", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_13428|A_mixed_m8_k2", "pred": "Bulgaria", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_9882|A_mixed_m2_k2", "pred": "Marenka is known as the main character in the opera \"Prodana Nevesta\" (The Bartered Bride) by Bedrich Smetana, which premiered in 1866. However, the title given in the question does not exactly match. The opera's title in English is \"The Bartered Bride,\" not directly mentioning Marenka. Therefore, while Marenka is the central character, the opera is titled \"The Bartered Bride.\" Answer: The Bartered Bride.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_525|A_mixed_m8_k2", "pred": "All Quiet on the Western Front", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_7130|A_mixed_m2_k2", "pred": "Margaret Thatcher", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_599|A_mixed_m2_k2", "pred": "8", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_909|A_mixed_m8_k2", "pred": "Peru", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "jp_184|A_mixed_m8_k2", "pred": "General Douglas MacArthur landed at Inchon.", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_8115|A_mixed_m8_k2", "pred": "Central Line", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_2412|A_mixed_m2_k2", "pred": "New York City", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "qb_2848|A_mixed_m2_k2", "pred": "joy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_8742|A_mixed_m2_k2", "pred": "Falcon", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "echobench", "method": "indierag:L", "iid": "odql_11867|A_mixed_m8_k2", "pred": "Nadia Comaneci", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs152", "pred": "Koltsevaya; Zamoskvoretskaya", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs245", "pred": "Andy Williams; Johnny Mathis Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs33", "pred": "16,571;42,800;44,939", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs88", "pred": "Novel; Film", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs334", "pred": "Clinton Sparks; Jay-Z; Gregory Berns; Heaven Shall Burn; Dope Knife; Nazxul", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs397", "pred": "saphenofemoral junction", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs495", "pred": "150;291;272;48", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs145", "pred": "underwear", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs56", "pred": "Best Coast; The Beatles", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs200", "pred": "1860;1900;1963;1974", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs61", "pred": "Bursaspor; Gençlerbirliği", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs375", "pred": "Joey Baron;John Coltrane;Zoot Sims;Chet Atkins", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs385", "pred": "Aretha Franklin; Dusty Springfield; John Michael Montgomery", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs354", "pred": "The Beatles; Joe Cocker", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs292", "pred": "baseball", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs46", "pred": "Shepseskaf; Userkaf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs362", "pred": "5,601;12,345;324", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs350", "pred": "Raymond, New Hampshire; Salem, Massachusetts", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs487", "pred": "22 June 1675; 22 December 1603", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs435", "pred": "3,046", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs456", "pred": "Larry Brand", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs452", "pred": "Woody Allen; Howard Morris", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs324", "pred": "artistic gymnastics; diving", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs444", "pred": "Labor Party; Liberal Party", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs454", "pred": "205;956;5,000;142;366;284;138", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs369", "pred": "27 April 1699", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs300", "pred": "11 November 1798; 23 December 1801", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs208", "pred": "837; 753; 2764", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs1", "pred": "American football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs381", "pred": "Marco Loristan; The Rat; Prince Ivan", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs135", "pred": "3,171;12,456;887", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs149", "pred": "Shae Jones; The Go-Go's; Beyoncé", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs230", "pred": "chef", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs475", "pred": "1902;1850;1912-1914", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs143", "pred": "3,292; 533; 3,373; 3,391", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs305", "pred": "28 March 1613;31 May 1599", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs102", "pred": "Dynasty; Jeremy Camp", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs474", "pred": "1975;1948", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs6", "pred": "1885; 1902", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs413", "pred": "marine biologist;physicist;naturalist", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs410", "pred": "Viu", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs242", "pred": "motorway;railway", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs195", "pred": "football", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs281", "pred": "documentary; drama", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs213", "pred": "August 1998;January 2005", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs259", "pred": "1924; 1942", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs77", "pred": "November 25, 1865; March 15, 1870", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs262", "pred": "Golf; Tennis", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs47", "pred": "snooker", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs271", "pred": "838; 1,200", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs441", "pred": "animated musical-fantasy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs392", "pred": "15 January 2010; 8 December 2009", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs133", "pred": "Taylor Swift; John Hartford; Westlife", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs431", "pred": "1985;1972;1975", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs255", "pred": "Green River; Snake River", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs139", "pred": "741;1,234;472", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs355", "pred": "November 3, 1992", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs346", "pred": "Joni Mitchell", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs232", "pred": "Republican; Democratic", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "vanilla", "iid": "ramdocs309", "pred": "Vocal cord dysfunction; Video Cassette Disc", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs152", "pred": "Koltsevaya line; Zamoskvoretskaya line", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs245", "pred": "Andy Williams; Johnny Mathis", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs33", "pred": "428", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs88", "pred": "film; Novel", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs334", "pred": "Clinton Sparks; Jay-Z; Symphony X; Gregory Berns", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs397", "pred": "San Francisco Jail; Sapheno-femoral junction", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs495", "pred": "291; 150; 48; 272", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs145", "pred": "porcelain-headed bisque dolls; Fritz Reu GmbH & Co", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs56", "pred": "Best Coast; The Beatles", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs200", "pred": "1900; June 11, 1963", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs61", "pred": "Gençlerbirliği; Bursaspor", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs375", "pred": "Joey Baron; John Coltrane; Zoot Sims; Chet Atkins", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs385", "pred": "Aretha Franklin; Dusty Springfield", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs354", "pred": "Joe Cocker", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs292", "pred": "Baseball; Golf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs46", "pred": "Shepseskaf and Userkaf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs362", "pred": "5,601; 12,345; 324; 273", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs350", "pred": "1 Depot Street; 36 Pine Street", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs487", "pred": "1603; 1691", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs435", "pred": "3,046", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs456", "pred": "Larry Brand; Quentin Tarantino; Tate Taylor; André Téchiné", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs452", "pred": "Woody Allen; Howard Morris", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs324", "pred": "Artistic gymnastics; diving; Bowling", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs444", "pred": "UK Labour Party; Labor Party; Conservative Party", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs454", "pred": "205; 3.3k; 5,000 residents; 956; 142", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs369", "pred": "27 April 1699", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs300", "pred": "11 November 1798; 19 December 1811; 23 December 1801", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs208", "pred": "837; 2,764", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs1", "pred": "American football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs381", "pred": "Eleanor Burden; Marco Loristan; Johnnie", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs135", "pred": "887; 3,171; 12,456", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs149", "pred": "The Go-Go's; Shae Jones; Beyoncé", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs230", "pred": "Chef; Actor", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs475", "pred": "1902; 1912-1914", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs143", "pred": "3,292; 533", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs305", "pred": "28 March 1613; 31 May 1599", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs102", "pred": "Dynasty; Jeremy Camp; Metallica", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs474", "pred": "1975; 28 April 1948", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs6", "pred": "1902; 1900; 1885; July 10, 1850", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs413", "pred": "marine biologist; Naturalist and anatomist; Physicist", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs410", "pred": "Viu; Biu Kingdom", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs242", "pred": "railway; motorway", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs195", "pred": "Basketball; Football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs281", "pred": "documentary; period drama", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs213", "pred": "August 1998; January 2005; 1964", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs259", "pred": "June 7, 1924; April 25, 1942", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs77", "pred": "November 25, 1865; March 15, 1870", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs262", "pred": "Golf; Tennis; Rugby", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs47", "pred": "Snooker; Badminton", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs271", "pred": "838; 1,200", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs441", "pred": "direct-to-video; animated musical-fantasy film; film series", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs392", "pred": "8 December 2009; 15 January 2010; October 9, 2010; November 23, 2008", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs133", "pred": "John Hartford; Taylor Swift; Westlife", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs431", "pred": "1985; October 1975; 1972; 1973", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs255", "pred": "Flaming Gorge Reservoir; Mississippi River; Snake River", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs139", "pred": "741; 1,234; 472", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs355", "pred": "November 3, 1992; December 1991", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs346", "pred": "Joni Mitchell; Marina Prior; Elton John; Willie Nelson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs232", "pred": "Republican", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "majority", "iid": "ramdocs309", "pred": "Video cassette disc; Vocal Cord Dysfunction; Virtual circular dynamics; Vibrational circular dichroism", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs152", "pred": "Koltsevaya; Zamoskvoretskaya", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs245", "pred": "Andy Williams; Johnny Mathis Answer:", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs33", "pred": "16,571;42,800;44,939", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs88", "pred": "Novel; Film", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs334", "pred": "Clinton Sparks; Jay-Z; Gregory Berns; Heaven Shall Burn; Dope Knife; Nazxul", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs397", "pred": "saphenofemoral junction", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs495", "pred": "291; 272", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs145", "pred": "underwear", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs56", "pred": "Best Coast; The Beatles", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs200", "pred": "1860;1900;1963;1974", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs61", "pred": "Bursaspor; Gençlerbirliği", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs375", "pred": "Joey Baron;Zoot Sims;Chet Atkins", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs385", "pred": "Aretha Franklin; Dusty Springfield; John Michael Montgomery", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs354", "pred": "The Beatles; Joe Cocker", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs292", "pred": "baseball", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs46", "pred": "Shepseskaf; Userkaf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs362", "pred": "5,601", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs350", "pred": "Raymond, New Hampshire; Salem, Massachusetts", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs487", "pred": "22 June 1675; 22 December 1603", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs435", "pred": "3,046", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs456", "pred": "Larry Brand", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs452", "pred": "Woody Allen; Howard Morris", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs324", "pred": "artistic gymnastics; diving", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs444", "pred": "Labor Party; Liberal Party", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs454", "pred": "205;956;5,000;142;366;284;138", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs369", "pred": "27 April 1699", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs300", "pred": "11 November 1798", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs208", "pred": "837; 753; 2764", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs1", "pred": "American football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs381", "pred": "Marco Loristan; The Rat; Prince Ivan", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs135", "pred": "3,171; 887", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs149", "pred": "Shae Jones; The Go-Go's; Beyoncé", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs230", "pred": "chef", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs475", "pred": "1902;1907;1912-1914", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs143", "pred": "3,292; 533; 3,373; 3,391", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs305", "pred": "28 March 1613;31 May 1599", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs102", "pred": "Dynasty; Jeremy Camp", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs474", "pred": "28 April 1948", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs6", "pred": "1885; 1902", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs413", "pred": "marine biologist;physicist;naturalist", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs410", "pred": "Viu;Viu", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs242", "pred": "motorway;railway", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs195", "pred": "football", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs281", "pred": "documentary; drama", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs213", "pred": "August 1998", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs259", "pred": "1924; 1942", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs77", "pred": "November 25, 1865; March 15, 1870", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs262", "pred": "Golf; Tennis", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs47", "pred": "snooker", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs271", "pred": "838", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs441", "pred": "animated musical-fantasy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs392", "pred": "15 January 2010; 8 December 2009", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs133", "pred": "Taylor Swift; John Hartford; Westlife", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs431", "pred": "1985;1972;1975", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs255", "pred": "Green River; Snake River", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs139", "pred": "741;1,234;472", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs355", "pred": "November 3, 1992", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs346", "pred": "Joni Mitchell", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs232", "pred": "Republican; Democratic", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "semdedup", "iid": "ramdocs309", "pred": "Vocal cord dysfunction; Video Cassette Disc", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs152", "pred": "Krasnoselskaya; Koltsevaya", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs245", "pred": "Andy Williams; Johnny Mathis", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs33", "pred": "428; 16,571; 42,800; 44,939; 45,490 (est.)", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs88", "pred": "Film", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs334", "pred": "None", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs397", "pred": "Saphenofemoral junction; San Francisco Jail", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs495", "pred": "291; 150", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs145", "pred": "rubber compounds and related materials", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs56", "pred": "Best Coast", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs200", "pred": "1900; June 11, 1963", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs61", "pred": "Fenerbahçe SK", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs375", "pred": "Joey Baron; John Coltrane; Zoot Sims; Chet Atkins", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs385", "pred": "Aretha Franklin; Dusty Springfield; John Michael Montgomery", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs354", "pred": "Step 1: Grouping the passages into consistent clusters and identifying conflicts.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs292", "pred": "baseball", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs46", "pred": "Userkaf; Shepseskaf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs362", "pred": "5,601; 12,345; 324; 1,501", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs350", "pred": "Boston, Massachusetts; North End near the intersection of North and Atlantic Streets", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs487", "pred": "1603", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs435", "pred": "44,000", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs456", "pred": "Tate Taylor", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs452", "pred": "David Lowery; Woody Allen", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs324", "pred": "bowling; gymnastics; diving", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs444", "pred": "Democratic Party; Labor Party; Liberal Party; Conservative Party", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs454", "pred": "205; 956; 5,000", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs369", "pred": "1627; 27 April 1699", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs300", "pred": "11 November 1798", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs208", "pred": "2,764", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs1", "pred": "American football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs381", "pred": "Marco Loristan; Alexander", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs135", "pred": "3,171; 12,456", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs149", "pred": "Shae Jones; Beyoncé; The Go-Go's", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs230", "pred": "Chef; Actor; Musician and composer", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs475", "pred": "1902; 1908", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs143", "pred": "3,292; 533", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs305", "pred": "1162; 1599; 1613", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs102", "pred": "Radiohead", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs474", "pred": "September 24, 1896", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs6", "pred": "1884", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs413", "pred": "physicist; marine biologist (based on conflicting information)", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs410", "pred": "Viu; Wiu; Biohou; Buijuy", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs242", "pred": "road transportation; railway transportation", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs195", "pred": "association football (soccer)", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs281", "pred": "documentary; dramatic reenactment; hybrid format", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs213", "pred": "August 1998; January 2005", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs259", "pred": "1847; 1924; 1942", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs77", "pred": "November 25, 1865; March 15, 1870", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs262", "pred": "golf; tennis", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs47", "pred": "snooker", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs271", "pred": "838", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs441", "pred": "live-action television movie; film series", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs392", "pred": "2012", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs133", "pred": "John Hartford; Taylor Swift; Westlife", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs431", "pred": "1972; 1975", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs255", "pred": "Snake River", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs139", "pred": "741", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs355", "pred": "November 3, 1992", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs346", "pred": "Joni Mitchell", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs232", "pred": "Democrat; Republican", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "astute", "iid": "ramdocs309", "pred": "Video CD; Video Cassette Disc (incorrect)", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs152", "pred": "Zamoskvoretskaya line", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs245", "pred": "None", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs33", "pred": "Based on the provided answers from the agents, we can aggregate the information as follows:", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs88", "pred": "Film; Book", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs334", "pred": "Symphony X; Clinton Sparks; Nazxul; Gregory Berns", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs397", "pred": "Sapheno-femoral junction; StarFlyer; Star Alliance; San Francisco Jail", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs495", "pred": "291; 272", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs145", "pred": "Underwear; Brewery; Porcelain-headed bisque dolls; Toy-making", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs56", "pred": "Best Coast; The Beatles", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs200", "pred": "1900; June 11, 1963", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs61", "pred": "Bursaspor; Gençlerbirliği; Ankaraspor", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs375", "pred": "Joey Baron; Chet Atkins", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs385", "pred": "Dusty Springfield", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs354", "pred": "The Beatles; Joe Cocker; Lu Elliott", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs292", "pred": "Baseball; Golf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs46", "pred": "Shepseskaf; Userkaf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs362", "pred": "Based on the agents' answers, the following population figures for Keyes are provided:", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs350", "pred": "Not specified in the document.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs487", "pred": "1691", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs435", "pred": "3,046", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs456", "pred": "Tate Taylor; Answer: Tate Taylor", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs452", "pred": "None;", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs324", "pred": "Diving; Gymnastics", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs444", "pred": "Labor Party; UK Labour Party", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs454", "pred": "To aggregate the answers and discard unsupported or misleading ones, we need to focus on the most consistent and reliable information provided by the agents. Here's the breakdown:", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs369", "pred": "27 April 1699; 1577", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs300", "pred": "11 November 1798; 23", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs208", "pred": "837; 2,764", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs1", "pred": "American football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs381", "pred": "Eleanor Burden", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs135", "pred": "3,171; 12,456", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs149", "pred": "The Go-Go's; Shae Jones; Beyoncé", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs230", "pred": "Chef; Executive Chef", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs475", "pred": "1902; 1912-1914", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs143", "pred": "3,292", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs305", "pred": "31 May 1599; 28 March 1613", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs102", "pred": "Jeremy Camp", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs474", "pred": "1896; 1897; 1898; 1899", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs6", "pred": "Based on the information provided by the agents, the dates mentioned for the construction of the Dallas County Courthouse are 1885, 1900, 1902, and 1850. However, we need to determine which of these dates are supported by the documents.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs413", "pred": "Physicist; Chemist", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs410", "pred": "Viu; Biu", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs242", "pred": "Railway", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs195", "pred": "Football; Basketball", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs281", "pred": "Period drama; film", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs213", "pred": "August 1998; 1964", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs259", "pred": "June 7, 1924; April 25, 1942", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs77", "pred": "November 25, 1865; March 15, 1870", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs262", "pred": "Tennis", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs47", "pred": "Snooker", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs271", "pred": "726", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs441", "pred": "Film series; animated musical-fantasy; direct-to-video", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs392", "pred": "None", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs133", "pred": "Taylor Swift; Westlife", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs431", "pred": "1972; 1973; October 1975; 1985", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs255", "pred": "Snake River; Flaming Gorge Reservoir", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs139", "pred": "741; 1,234", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs355", "pred": "November 3, 1992; December 1991", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs346", "pred": "Joni Mitchell; Elton John and Bernie", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs232", "pred": "The information provided does not mention Senator Atkinson's political party.", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "madam", "iid": "ramdocs309", "pred": "Vibrational Circular Dichroism; Video Compact Disc; Variable Laser Disc", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs152", "pred": "Koltsevaya line; Zamoskvoretskaya line", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs245", "pred": "Andy Williams; Johnny Mathis", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs33", "pred": "428", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs88", "pred": "film; Novel", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs334", "pred": "Clinton Sparks; Jay-Z; Symphony X; Gregory Berns", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs397", "pred": "San Francisco Jail; Sapheno-femoral junction", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs495", "pred": "48; 291; 150; 272", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs145", "pred": "porcelain-headed bisque dolls; Fritz Reu GmbH & Co", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs56", "pred": "Best Coast; The Beatles", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs200", "pred": "1900; June 11, 1963", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs61", "pred": "Gençlerbirliği; Bursaspor", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs375", "pred": "Joey Baron; John Coltrane; Chet Atkins; Zoot Sims", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs385", "pred": "Aretha Franklin; Dusty Springfield", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs354", "pred": "Joe Cocker", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs292", "pred": "Baseball; Golf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs46", "pred": "Shepseskaf and Userkaf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs362", "pred": "5,601; 12,345; 324; 273", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs350", "pred": "1 Depot Street; 36 Pine Street", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs487", "pred": "1603; 1691", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs435", "pred": "3,046", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs456", "pred": "Larry Brand; Quentin Tarantino; Tate Taylor; André Téchiné", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs452", "pred": "Woody Allen; Howard Morris", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs324", "pred": "Artistic gymnastics; diving; Bowling", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs444", "pred": "UK Labour Party; Labor Party; Conservative Party", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs454", "pred": "205; 3.3k; 5,000 residents; 956; 142", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs369", "pred": "27 April 1699; c. 1627; 1577", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs300", "pred": "11 November 1798; 19 December 1811; 23 December 1801", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs208", "pred": "837; 2,764", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs1", "pred": "American football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs381", "pred": "Eleanor Burden; Marco Loristan; Johnnie", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs135", "pred": "887; 3,171; 12,456", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs149", "pred": "The Go-Go's; Shae Jones; Beyoncé", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs230", "pred": "Chef; Actor", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs475", "pred": "1902; 1912-1914", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs143", "pred": "3,292; 533", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs305", "pred": "28 March 1613; 31 May 1599", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs102", "pred": "Dynasty; Jeremy Camp; Metallica", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs474", "pred": "1975; 28 April 1948", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs6", "pred": "1902; 1900; 1885; July 10, 1850", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs413", "pred": "marine biologist; Naturalist and anatomist; Physicist", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs410", "pred": "Viu; Biu Kingdom", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs242", "pred": "railway; motorway", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs195", "pred": "Basketball; Football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs281", "pred": "documentary; period drama", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs213", "pred": "August 1998; January 2005; 1964", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs259", "pred": "June 7, 1924; April 25, 1942", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs77", "pred": "November 25, 1865; March 15, 1870", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs262", "pred": "Golf; Tennis; Rugby", "metric": 1.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs47", "pred": "Snooker; Badminton", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs271", "pred": "838; 1,200; 726; 582", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs441", "pred": "direct-to-video; animated musical-fantasy film; film series", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs392", "pred": "8 December 2009; 15 January 2010; October 9, 2010; November 23, 2008", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs133", "pred": "Taylor Swift; John Hartford; Westlife", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs431", "pred": "October 1975; 1985; 1972; 1973", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs255", "pred": "Flaming Gorge Reservoir; Mississippi River; Snake River", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs139", "pred": "741; 1,234; 472", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs355", "pred": "November 3, 1992; December 1991", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs346", "pred": "Joni Mitchell; Marina Prior; Elton John; Willie Nelson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs232", "pred": "Republican", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indievote:L", "iid": "ramdocs309", "pred": "Video cassette disc; Vocal Cord Dysfunction; Vibrational circular dichroism; Virtual circular dynamics", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs152", "pred": "Koltsevaya line; Zamoskvoretskaya line", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs245", "pred": "Andy Williams; Johnny Mathis", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs33", "pred": "428", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs88", "pred": "Novel", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs334", "pred": "Clinton Sparks; Gregory Berns; Symphony X", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs397", "pred": "SFJ refers to sapheno-femoral junction.", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs495", "pred": "291; 272", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs145", "pred": "porcelain-headed bisque dolls; brewery", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs56", "pred": "Best Coast", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs200", "pred": "June 11, 1963", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs61", "pred": "Gençlerbirliği", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs375", "pred": "Joey Baron; Zoot Sims; Chet Atkins", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs385", "pred": "John Michael Montgomery", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs354", "pred": "The Beatles; Joe Cocker", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs292", "pred": "Baseball; Golf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs46", "pred": "Shepseskaf; Userkaf", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs362", "pred": "5,601", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs350", "pred": "1 Depot Street; 36 Pine Street (Note: The latter is for a different railroad depot in Stoneham, Massachusetts, not the Boston and Maine Railroad Depot.)", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs487", "pred": "1691", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs435", "pred": "3,046", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs456", "pred": "Tate Taylor", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs452", "pred": "Woody Allen", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs324", "pred": "diving; artistic gymnastics", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs444", "pred": "UK Labour Party", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs454", "pred": "205; 5,000 residents", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs369", "pred": "16 March 1590", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs300", "pred": "11 November 1798; 19 December 1811", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs208", "pred": "2,764; 837", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs1", "pred": "American football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs381", "pred": "Eleanor Burden; Marco Loristan", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs135", "pred": "12,456; 887", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs149", "pred": "The Go-Go's; Shae Jones; Beyoncé", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs230", "pred": "Chef; Actor", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs475", "pred": "1850; 1902-1914", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs143", "pred": "3,292; 533", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs305", "pred": "28 May 1614; 28 March 1613", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs102", "pred": "Jeremy Camp; Metallica; Dynasty", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs474", "pred": "28 April 1948", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs6", "pred": "1902", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs413", "pred": "physicist", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs410", "pred": "Viu; Biu", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs242", "pred": "railway; motorway", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs195", "pred": "Basketball; Football", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs281", "pred": "documentary; period drama", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs213", "pred": "August 1998; January 2005; 1964", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs259", "pred": "June 7, 1924; April 25, 1942", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs77", "pred": "November 25, 1865; (this date is from a single independent origin and may not be accurate)", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs262", "pred": "Golf", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs47", "pred": "Snooker", "metric": 1.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs271", "pred": "726; 582", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs441", "pred": "animated musical-fantasy film, film series", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs392", "pred": "8 December 2009; October 9, 2010; 15 January 2010", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs133", "pred": "Taylor Swift; Westlife", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs431", "pred": "1972; 1973; 1975; 1985", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs255", "pred": "Green River; Mississippi River", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs139", "pred": "741; 1,234 (for the South Australian Port Vincent, which is not the one in Louisiana)", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs355", "pred": "November 3, 1992", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs346", "pred": "Marina Prior; Willie Nelson", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs232", "pred": "Republican", "metric": 0.0, "judge": 1.0, "judge_raw": "YES"}
+{"ds": "ramdocs", "method": "indierag:L", "iid": "ramdocs309", "pred": "Vibrational Circular Dichroism; Vocal Cord Dysfunction", "metric": 0.0, "judge": 0.0, "judge_raw": "NO"}

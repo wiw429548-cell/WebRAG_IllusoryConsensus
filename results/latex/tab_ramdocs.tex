@@ -1,0 +1,35 @@
+\begin{table}[tbp]
+\centering
+\small
+\caption{RAMDocs (realistic ambiguity + misinformation + noise; 500 questions). acc: all valid answers and no misinformation answer; wrong: a misinformation answer is given (\%).}
+\label{tab:ramdocs}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Method & Qwen2\_5\_7B\_Instruc acc & wrong$\downarrow$ & Qwen3\_8B acc & wrong$\downarrow$ \\
+\midrule
+Vanilla RAG & 26.0 & 42.4 & 30.6 & 42.4 \\
+Dedup (5-gram) & \textbf{35.6} & 22.2 & \textbf{42.4} & 23.2 \\
+SemDedup (emb.) & 29.4 & 33.6 & 34.4 & 34.8 \\
+Majority vote & 31.6 & 45.4 & 31.0 & 45.0 \\
+Near-dup + vote & 32.4 & 46.2 & 31.8 & 46.0 \\
+SemDedup + vote & 31.6 & 45.4 & 31.0 & 45.2 \\
+Astute RAG & 27.6 & 26.6 & 12.4 & 7.0 \\
+InstructRAG-ICL & 27.0 & 23.4 & 37.0 & 30.8 \\
+TrustRAG (filter) & 26.4 & 39.8 & 30.2 & 40.2 \\
+MADAM-RAG & 25.4 & 28.0 & 20.8 & 19.6 \\
+CAG (prompted) & 24.4 & 29.6 & 34.0 & 35.4 \\
+ACCU (no copy det.) & 25.4 & 22.0 & 24.8 & 21.8 \\
+\midrule
+IndieVote-H & 33.8 & 47.8 & 33.0 & 48.0 \\
+IndieVote-L & 33.0 & 46.4 & 32.4 & 46.0 \\
+IndieVote-LLM & 31.4 & 46.6 & 32.4 & 48.2 \\
+IndieBayes-L & 22.6 & 20.8 & 22.2 & 20.4 \\
+IndieRAG-H & 32.4 & 27.8 & 40.4 & 32.4 \\
+IndieRAG-L & 32.2 & 27.2 & 41.0 & 32.4 \\
+IndieRAG-LLM & 28.2 & 32.8 & 37.8 & 37.8 \\
+IndieRAG-L: table + all docs & 30.8 & 29.8 & 37.0 & 38.0 \\
+IndieRAG-L: grouped docs, no table & 27.8 & 24.4 & 36.2 & 30.4 \\
+\bottomrule
+\end{tabular}
+\end{table}

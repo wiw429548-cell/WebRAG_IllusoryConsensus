@@ -1,0 +1,31 @@
+\begin{table}[!t]
+\centering
+\caption{\textbf{Paired gains of \sys{}-L over each baseline} ($\Delta$acc in points). EchoBench: setting A, $m\!\geq\!1$
+(2{,}400 instances; 400 for MADAM-RAG); RAMDocs: 500 questions. Question-clustered bootstrap, Holm-corrected over the
+12 baselines: $^{\ddagger}p_{\text{Holm}}{<}0.01$, $^{\dagger}p_{\text{Holm}}{<}0.05$; \sigp{green}/\sign{red} =
+significant gain/loss, \nsig{gray} = not significant. CIs in Appendix~\ref{app:tables}.}
+\label{tab:sig}
+\setlength{\tabcolsep}{4pt}
+\small
+\rowcolors{3}{white}{rowc}
+\begin{tabular}{l rr rr}
+\toprule
+\hdr & \multicolumn{2}{c}{\textbf{EchoBench}} & \multicolumn{2}{c}{\textbf{RAMDocs}} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\hdr \textbf{vs.\ baseline} & Qwen2.5 & Qwen3 & Qwen2.5 & Qwen3 \\
+\midrule
+Vanilla RAG & \sigp{+17.3}$\,^{\ddagger}$ & \sigp{+11.0}$\,^{\ddagger}$ & \sigp{+6.2}$\,^{\dagger}$ & \sigp{+10.4}$\,^{\ddagger}$ \\
+Near-dup removal & \sigp{+14.3}$\,^{\ddagger}$ & \sigp{+9.1}$\,^{\ddagger}$ & \nsig{$-$3.4} & \nsig{$-$1.4} \\
+SemDeDup & \sigp{+12.0}$\,^{\ddagger}$ & \sigp{+6.5}$\,^{\ddagger}$ & \nsig{+2.8} & \sigp{+6.6}$\,^{\dagger}$ \\
+Majority vote & \sigp{+43.3}$\,^{\ddagger}$ & \sigp{+38.9}$\,^{\ddagger}$ & \nsig{+0.6} & \sigp{+10.0}$\,^{\ddagger}$ \\
+Near-dup + vote & \sigp{+35.6}$\,^{\ddagger}$ & \sigp{+31.8}$\,^{\ddagger}$ & \nsig{$-$0.2} & \sigp{+9.2}$\,^{\ddagger}$ \\
+SemDeDup + vote & \sigp{+31.5}$\,^{\ddagger}$ & \sigp{+28.2}$\,^{\ddagger}$ & \nsig{+0.6} & \sigp{+10.0}$\,^{\ddagger}$ \\
+Astute RAG & \sigp{+10.8}$\,^{\ddagger}$ & \sigp{+33.2}$\,^{\ddagger}$ & \nsig{+4.6} & \sigp{+28.6}$\,^{\ddagger}$ \\
+InstructRAG-ICL & \sigp{+11.4}$\,^{\ddagger}$ & \sigp{+5.9}$\,^{\ddagger}$ & \nsig{+5.2} & \nsig{+4.0} \\
+TrustRAG (filter) & \sigp{+16.1}$\,^{\ddagger}$ & \sigp{+9.4}$\,^{\ddagger}$ & \sigp{+5.8}$\,^{\dagger}$ & \sigp{+10.8}$\,^{\ddagger}$ \\
+MADAM-RAG & \sigp{+17.8}$\,^{\ddagger}$ & \sigp{+26.8}$\,^{\ddagger}$ & \sigp{+6.8}$\,^{\dagger}$ & \sigp{+20.2}$\,^{\ddagger}$ \\
+CAG (prompted) & \sigp{+10.1}$\,^{\ddagger}$ & \sigp{+5.8}$\,^{\ddagger}$ & \sigp{+7.8}$\,^{\dagger}$ & \sigp{+7.0}$\,^{\ddagger}$ \\
+ACCU (no copy det.) & \sigp{+43.3}$\,^{\ddagger}$ & \sigp{+38.9}$\,^{\ddagger}$ & \sigp{+6.8}$\,^{\dagger}$ & \sigp{+16.2}$\,^{\ddagger}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
