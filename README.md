@@ -11,7 +11,9 @@ Anonymous submission to The Web Conference 2027
 [![Results](https://img.shields.io/badge/results-included-2e7d32)](results/summary.md)
 
 </div>
-
+<p align="center">
+  <img src="assets/figures/overview.png" width="100%" alt="Illusory consensus and the IndieRAG pipeline">
+</p>
 
 
 A RAG reader that sees seven pages giving one answer and three giving another usually goes with the seven. On the
