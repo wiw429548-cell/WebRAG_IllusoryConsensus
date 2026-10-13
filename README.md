@@ -12,7 +12,7 @@ Anonymous submission to The Web Conference 2027
 
 </div>
 <p align="center">
-  <img src="assets/figures/overview.png" width="100%" alt="Illusory consensus and the IndieRAG pipeline">
+  <img src="assets/figures/overview_new.png" width="100%" alt="Illusory consensus and the IndieRAG pipeline">
 </p>
 
 
