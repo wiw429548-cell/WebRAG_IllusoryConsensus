@@ -12,9 +12,7 @@ Anonymous submission to The Web Conference 2027
 
 </div>
 
-<p align="center">
-  <img src="assets/figures/overview.png" width="100%" alt="Illusory consensus and the IndieRAG pipeline">
-</p>
+
 
 A RAG reader that sees seven pages giving one answer and three giving another usually goes with the seven. On the
 Web those seven pages are often one article that was syndicated, mirrored, translated or rewritten by an LLM. We call
