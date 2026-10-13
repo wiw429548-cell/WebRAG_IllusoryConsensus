@@ -1,4 +1,4 @@
-"""Registry of every experiment of the IndieRAG paper -> scheduler jobs (see README.md for the mapping to the paper)."""
+"""Registry of every experiment of the IndieRAG paper -> scheduler jobs (see README.md)."""
 import os
 
 from .scheduler import Job, py

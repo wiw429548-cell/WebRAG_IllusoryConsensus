@@ -1,4 +1,4 @@
-"""Collect every result into results/summary.md, results/latex/*.tex (booktabs tables \\input by paper/main.tex)
+"""Collect every result into results/summary.md, results/latex/*.tex (booktabs tables)
 and results/figures/*.{pdf,png}.
 
 Only real outputs are used; a missing number is printed as "--". Averages over a set of conditions are only reported

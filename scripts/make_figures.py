@@ -1,10 +1,11 @@
-"""Paper figures (camera-ready style) drawn directly from the result files under ../../results/.
+"""Figures of the README, drawn directly from the result files under results/.
 
-Usage (from the repository root):  python paper/scripts/make_figures.py
-Writes paper/figures/*.pdf (vector) and *.png (preview). No number is typed in by hand: every plotted value is read
-from results/rag/*/echobench/metrics.json, results/dependence/metrics.json, results/web_measure/**/metrics.json and
+Usage (from the repository root):  python scripts/make_figures.py
+Writes assets/figures/*.png. Every plotted value is read from results/rag/*/echobench/metrics.json, the per-instance
+predictions in results/rag/*/echobench/preds/ (.jsonl or .jsonl.gz), results/dependence/, results/web_measure/ and
 results/theory/simulation.json.
 """
+import gzip
 import json
 from pathlib import Path
 
@@ -16,9 +17,9 @@ import matplotlib.ticker
 import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / "results"
-OUT = ROOT / "paper" / "figures"
+OUT = ROOT / "assets" / "figures"
 OUT.mkdir(parents=True, exist_ok=True)
 
 PRIMARY = "Qwen_Qwen2_5_7B_Instruct"
@@ -69,8 +70,7 @@ def acc(mt, meth, cond, key="acc"):
 
 
 def save(fig, stem):
-    fig.savefig(OUT / f"{stem}.pdf")
-    fig.savefig(OUT / f"{stem}.png", dpi=220)
+    fig.savefig(OUT / f"{stem}.png", dpi=250)
     plt.close(fig)
     print("wrote", stem)
 
@@ -95,7 +95,8 @@ def band(ax, reader, meth, conds, xs, n_boot=2000, seed=0):
     """95% bootstrap band from the per-question predictions (one instance per question and condition)"""
     path = RES / "rag" / reader / "echobench" / "preds" / (meth.replace(":", "_") + ".jsonl")
     by = {}
-    for line in open(path, encoding="utf-8"):
+    lines = open(path, encoding="utf-8") if path.exists() else gzip.open(str(path) + ".gz", "rt", encoding="utf-8")
+    for line in lines:
         r = json.loads(line)
         by.setdefault(r["cond"], []).append(r["acc"])
     rng = np.random.RandomState(seed)
@@ -169,8 +170,7 @@ def fig_readers():
 
 # ------------------------------------------------------------------ Fig: copy types (heatmaps)
 def fig_copytypes():
-    d = jl(RES / "dependence" / "metrics.json")
-    types = ["verbatim", "backtrans", "paraphrase", "ai_farm", "summary"]
+    types =["verbatim", "backtrans", "paraphrase", "ai_farm", "summary"]
     tlab = ["verbatim", "back-transl.", "paraphrase", "content farm", "summary"]
     # (a) recall of origin-copy pairs per estimator -- taken from the generated LaTeX table (same source numbers)
     rows = {}
@@ -340,7 +340,7 @@ def fig_web_forest():
     from matplotlib.lines import Line2D
     axes[1].legend([Line2D([], [], color="#555", marker="o", ms=3, lw=1.2),
                     Line2D([], [], color="#555", alpha=0.45, marker="s", ms=3, lw=1.2)],
-                   ["all 1000 q.", "297 conflict q."], loc="lower left", fontsize=6, handlelength=1.4)
+                   ["all 1000 q.", "297 conflict q."], loc="upper left", fontsize=6, handlelength=1.4)
     save(fig, "web_forest")
 
 
