@@ -4,7 +4,6 @@
 
 ### Dependence-Aware Evidence Aggregation against Illusory Consensus in Web RAG
 
-Anonymous submission to The Web Conference 2027
 
 [![Python](https://img.shields.io/badge/python-3.12-3776ab)](requirements.txt)
 [![Benchmark](https://img.shields.io/badge/benchmark-EchoBench-1f4e9a)](#echobench)
